@@ -1,5 +1,9 @@
 {
+  "author": "David Christian Jones",
+  "twitter": "iamdcj",
   "name": "iamdcj.com",
+  "description": "Personal Website for David Christian Jones",
+  "repository": "https://github.com/iamDCJ/iamdcj.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
