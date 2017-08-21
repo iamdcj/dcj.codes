@@ -1,0 +1,912 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"job",
+				"jobPosts"
+			],
+			[
+				"In",
+				"IndividualListing"
+			],
+			[
+				"jo",
+				"jobPosts"
+			],
+			[
+				"console",
+				"console_log"
+			],
+			[
+				"conso",
+				"console_log"
+			],
+			[
+				"greetin",
+				"greetings"
+			],
+			[
+				"add",
+				"addGreeting"
+			],
+			[
+				"gree",
+				"greetings"
+			],
+			[
+				"handle",
+				"handleUpdate"
+			],
+			[
+				"render",
+				"renderGreetings"
+			],
+			[
+				"Hell",
+				"HelloWorldList"
+			],
+			[
+				"sp",
+				"spanify"
+			],
+			[
+				"hadn",
+				"handleUpdate"
+			],
+			[
+				"hand",
+				"handleUpdate"
+			],
+			[
+				"rend",
+				"render()\tReactDOM"
+			],
+			[
+				"class",
+				"className\t: DOMString Element"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"t",
+				"transparent"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"feature",
+				"feature-title"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"elem",
+				"elementFrozen"
+			],
+			[
+				"cons",
+				"console_log"
+			],
+			[
+				"f",
+				"for\tJS - For loop"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "import React from 'react';\nimport ReactDOM from 'react-dom';\nimport App from './App';\nimport registerServiceWorker from './registerServiceWorker';\n\nReactDOM.render(<App />, document.getElementById('root'));\nregisterServiceWorker();\n",
+			"file": "src/index.js",
+			"file_size": 232,
+			"file_write_time": 131460831440000000,
+			"settings":
+			{
+				"buffer_size": 232,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import React from 'react';\n\n\nconst Footer = () => {\n    return (\n     \n    );\n}\n\nexport default Footer;",
+			"file": "src/components/Footer.js",
+			"file_size": 103,
+			"file_write_time": 131460831440000000,
+			"settings":
+			{
+				"buffer_size": 103,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import React from 'react';\n\nconst Header = () => {\n    return (\n     \t\n    );\n}\n\nexport default Header;",
+			"file": "src/components/Header.js",
+			"file_size": 103,
+			"file_write_time": 131460831440000000,
+			"settings":
+			{
+				"buffer_size": 103,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import React from 'react';\n\nconst History = () => {\n    return (\n     \n    );\n}\n\nexport default History;",
+			"file": "src/components/History.js",
+			"file_size": 104,
+			"file_write_time": 131460831440000000,
+			"settings":
+			{
+				"buffer_size": 104,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import React from 'react';\n\nconst Introduction = () => {\n    return (\n     \t\n    );\n}\n\nexport default Introduction;",
+			"file": "src/components/Introduction.js",
+			"file_size": 115,
+			"file_write_time": 131460831440000000,
+			"settings":
+			{
+				"buffer_size": 115,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import React from 'react';\n\nexport default Masthead;",
+			"file": "src/components/Masthead.js",
+			"file_size": 52,
+			"file_write_time": 131460822690000000,
+			"settings":
+			{
+				"buffer_size": 52,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "{\n  \"author\": \"David Christian Jones\",\n  \"twitter\": \"iamdcj\",\n  \"name\": \"dcj.codes\",\n  \"description\": \"Personal Website for David Christian Jones\",\n  \"repository\": \"https://github.com/iamDCJ/dcj.codes\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"dependencies\": {\n    \"react\": \"^15.6.1\",\n    \"react-dom\": \"^15.6.1\",\n    \"react-scripts\": \"1.0.10\"\n  },\n  \"scripts\": {\n    \"start\": \"react-scripts start\",\n    \"build\": \"react-scripts build\",\n    \"test\": \"react-scripts test --env=jsdom\",\n    \"eject\": \"react-scripts eject\"\n  }\n}",
+			"file": "package.json",
+			"file_size": 524,
+			"file_write_time": 131460831440000000,
+			"settings":
+			{
+				"buffer_size": 524,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 293,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"/usr/bin/ruby -e \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)\""
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/davidjones/Sites/dcj.codes",
+		"/Users/davidjones/Sites/dcj.codes/src"
+	],
+	"file_history":
+	[
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/themebuilder.json",
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/head/head-css.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/icons/product-selector.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/drag-reveal.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/base/_picture-fill.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/pages/eretailer/test-harness.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/pages/_index.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/pages/icons/product-selector-smallscreen.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/base/unsupported-browser.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/pages/icons/product-selector-live-copy.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/_bb/eretailer.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/eretailer.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/eretailer/form.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/components/video-container.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/eretailer/_variables.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/foot/foot-scripts.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/sticky-area.js",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_scripts/themes/football-clubs.js",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_scripts/themes/day-one.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/base/_events.js",
+		"/Users/davidjones/Sites/adi-cfw/src/adi-campaign-framework/src/main/webapp/resources/_scripts/main.js",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_scripts/main.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/layouts/master-eretailer.hbs",
+		"/Users/davidjones/Sites/bb-careers/src/layouts/IndividualPost.js",
+		"/Users/davidjones/Sites/bb-careers/src/components/JobListings.js",
+		"/Users/davidjones/Sites/bb-careers/src/components/IndividualJobListing.js",
+		"/etc/apache2/users/dcj.conf",
+		"/Users/davidjones/Sites/bb-careers/src/layouts/Individual.js",
+		"/Users/davidjones/Sites/bb-careers/src/index.js",
+		"/Users/davidjones/Sites/bb-careers/src/components/Footer.js",
+		"/Users/davidjones/Sites/JavaScript30/04 - Array Cardio Day 1/index-FINISHED.html",
+		"/Users/davidjones/Sites/bb-careers/package.json",
+		"/Users/davidjones/Sites/bb-careers/src/App.js",
+		"/Users/davidjones/Sites/bb-careers/src/components/Menu.js",
+		"/Users/davidjones/Sites/bb-careers/src/components/Header.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/miadidas/selector_miadidas.json",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/mi-adidas/features.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/tilting-image/tilting-image.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/pages/base/tilting-images.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/data/components/tilting-image.json",
+		"/Users/davidjones/Sites/adi-cfw/html/src/pages/blue-blast/clp.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/components/tilting-image.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/base/tilting-image.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/components/tilting-image-b.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/base/tilting-image-b.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/_order.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/base.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/tilting-image/tilting-image-b.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/tilting-image.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/head/head-css-rtl.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/mi-adidas/teasers.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/mi-adidas/buttons.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/miadidas/features_miadidas.json",
+		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/miadidas/teasers_miadidas.json",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/mi-adidas/statement.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/mi-adidas/_variables.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/components/statement.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/feature/feature.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/vendor/slick-carousel.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/base/slick.less",
+		"/Users/davidjones/Desktop/cv",
+		"/Users/davidjones/Sites/adi-cfw/html/src/pages/miadidas/selector-smallscreen.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/mi-adidas.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/pages/football-clubs/example-page.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/sticky-area-b.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/components/image-grid.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/football-clubs/image-grid.less",
+		"/Users/davidjones/Sites/adi-cfw/html/Gruntfile.js",
+		"/Users/davidjones/Downloads/adidas.kdbx",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/lazy-load.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/feature/feature-non-lazy.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/image-grid/image-grid-non-lazy.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/forms/actions.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/image-grid/image-grid.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_scripts/themes/parley-swim.min.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/pages/base/features-non-lazy.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/tealium-image.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/components/features.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/pages/base/features-justified.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/extra-blue-blast-clp/statement.less",
+		"/Users/davidjones/Sites/adi-cfw/html/node_modules/grunt-combine-js/package.json",
+		"/Users/davidjones/Sites/adi-cfw/html/node_modules/grunt-combine-js/README.md",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/scrollTo.js",
+		"/Users/davidjones/Sites/adi-cfw/html/node_modules/grunt-combine-js/tasks/combine_js.js",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_scripts/themes/mercury.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/base/olapic-feed.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/running-clp-laceless/masthead.less",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/running-clp-laceless.css",
+		"/Users/davidjones/Sites/adi-cfw/html/src/pages/running-clp-2/demo-page-mobile.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/running-clp-laceless/buttons.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/running-clp-laceless.less",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_scripts/themes/dust-storm-clp.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/menu.js",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_scripts/themes/base.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/running-clp-2/masthead.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/running-clp-2/buttons.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/pages/running-clp-2/demo-page-desktop.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/running-clp-laceless/_variables.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/running-clp-2/running-clp-2-mastheads.json",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/olapic-overlay.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/running-clp-2.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/adidas-overrides.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/pages/base/olapic-feed.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/olapic/olapic-overlay.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/package.json",
+		"/Users/davidjones/Sites/adi-cfw/html/node_modules/grunt-combine-js/Gruntfile.js",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_scripts/themes/basic.js",
+		"/Users/davidjones/Sites/adi-cfw/html/_scripts/themes/superstar.min.js",
+		"/Users/davidjones/Sites/adi-cfw/html/_scripts/themes/superstar.js",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/*.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/dust-storm.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/extra-mercury-ace.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/main.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/blue-blast.min.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/blue-blast.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/extra-mercury-messi.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/extra-base-nmd.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/cyrillic.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/extra-sol-clp.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/allday.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/base.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/ubx.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/ubx_two.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/base.min.css",
+		"/private/etc/apache2/users/davidjones.conf",
+		"/Users/davidjones/Downloads/-.html"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts",
+			"",
+			"*.css",
+			"*.js",
+			"*.jsx",
+			"*.hbs",
+			"*.less",
+			"*.hbs"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"title",
+			"solution",
+			"solution_themeScripts",
+			"copy:solution_themeScripts",
+			"solution",
+			"solution_styles",
+			"console.log",
+			"/smart-app-meta-data-injector.js",
+			"\n            \"src/assets/scripts/modules/smart-app-meta-data-injector.js\",",
+			"olapic-overlay-video.js\",",
+			"modules/olapic-overlay.js",
+			"parley",
+			"was",
+			"600px",
+			"include jquery",
+			"eretailer",
+			"stuck",
+			"headerredesign",
+			"headeredesign",
+			"console",
+			"build_sc",
+			"ie",
+			"ie.",
+			"rtl",
+			"ie",
+			"base",
+			"Home",
+			"18484",
+			"filter",
+			"18484\n",
+			"HelloWorld",
+			"menu--in",
+			"Introduction",
+			"sticky-in",
+			"sticky-",
+			"sticky",
+			"sticky-b",
+			"sticky-",
+			"sticky-h",
+			"sticky-he",
+			"sticky-b",
+			"video",
+			">hero",
+			">masthead",
+			">header",
+			"head-css",
+			"header-css",
+			"header-logo",
+			"{{>hero",
+			"{{>HERO",
+			"BB",
+			"BUILDDING",
+			"BUILD",
+			"tilting-image/blue-blast/test_images/tilting-image/",
+			"temp/images/tilting-image/alternate/DT",
+			"temp/images/tilting-image/alternate/MB",
+			"tiltingImage",
+			"tiltin",
+			"-b",
+			"max-",
+			"bg",
+			"base",
+			"ieCss",
+			"ie.cs",
+			"ie.c",
+			"main.css",
+			"ie.css",
+			"ie.c",
+			"ie.",
+			"cta",
+			"font",
+			"font-family: 'adihausDIN-medium', sans-serif;",
+			"font-f",
+			"adi",
+			"cta",
+			"copy",
+			"OPY",
+			"75",
+			"75px",
+			"red",
+			"temp/images/mi-adidas/teaser-main.png",
+			"base/",
+			"dot",
+			"slick",
+			"dot",
+			"slick",
+			"dot",
+			"cta",
+			"body",
+			"style-a",
+			"video",
+			"carouse",
+			"stuck'",
+			"top",
+			"top-",
+			"top-f",
+			"topf-",
+			"tile-col",
+			"tile-co",
+			"50%",
+			"teali",
+			"retailer",
+			"image-btn",
+			"parley-s",
+			"olapic-overlay.",
+			"olapic-overlay",
+			"src/assets/scripts/modules/olapic-",
+			"src/assets/scripts/modules/olapic",
+			"olapic",
+			"bicu",
+			"show-hide",
+			"scripts",
+			"scrolllock",
+			"\n            \"src/assets/scripts/modules/unsupported-browser.js\",",
+			"scrollo",
+			"scrollto",
+			"smoo",
+			"\n            \"src/assets/scripts/modules/smooth-scroll.js\",",
+			"\n            \"src/assets/scripts/modules/scrollTo.js\",",
+			"\"src/assets/scripts/modules/scrollTo.js\",",
+			"\n            \"src/assets/scripts/modules/in-view.js\",",
+			"\n            \"src/assets/scripts/modules/_swipe-script.js\",",
+			"smooth",
+			"tealium-c",
+			"\n            \"src/assets/scripts/modules/menu.js\",",
+			"action-menu",
+			"lazyload: ",
+			"\"src/assets/scripts/modules/lazy-load.js\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"olapic/olapic-overlay-video.js\",",
+			"modules/olapic/olapic-overlay.js",
+			"Listings",
+			"HelloWorldList",
+			"History",
+			"blue-blast/test_images/tilting-image/",
+			"temp/images/tilting-image/blue-blast/test_images/tilting-image/MB",
+			"temp/images/mi-adidas/clp/selector/teaser-main.png",
+			"mi-adidas/",
+			"src/assets/scripts/modules/olapic/olapic-",
+			"src/assets/scripts/modules/olapic/olapic",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/components/Footer.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								79,
+								29
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/components/Header.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								70
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/components/History.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/components/Introduction.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 115,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								76,
+								76
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/components/Masthead.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 52,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								28
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 524,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								200,
+								200
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 293,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								262
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "dcj.codes.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"theme",
+				"html/src/assets/scripts/themebuilder.json"
+			],
+			[
+				"head-css",
+				"html/src/partials/head/head-css.hbs"
+			],
+			[
+				"gru",
+				"html/Gruntfile.js"
+			],
+			[
+				"",
+				"html/src/assets/scripts/themebuilder.json"
+			],
+			[
+				"the",
+				"html/src/assets/scripts/themebuilder.json"
+			],
+			[
+				"thme",
+				"html/src/assets/scripts/themebuilder.json"
+			],
+			[
+				"themeb",
+				"html/src/assets/scripts/themebuilder.json"
+			],
+			[
+				"them",
+				"html/src/assets/scripts/themebuilder.json"
+			],
+			[
+				"_ind",
+				"html/src/pages/_index.hbs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 311.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
