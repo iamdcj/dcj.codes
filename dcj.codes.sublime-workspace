@@ -4,106 +4,6 @@
 		"selected_items":
 		[
 			[
-				"_",
-				"_Video"
-			],
-			[
-				"stop",
-				"stopPropagation\t(): void Event"
-			],
-			[
-				"_Pa",
-				"_Parent"
-			],
-			[
-				"parnet",
-				"parentElement\t: Element Node"
-			],
-			[
-				"pa",
-				"panel"
-			],
-			[
-				"clas",
-				"classList"
-			],
-			[
-				"cl",
-				"classList\t: DOMTokenList Element"
-			],
-			[
-				"quer",
-				"querySelector\t( selectors: DOMString ): Element (Selectors) Element"
-			],
-			[
-				"pare",
-				"parentElement\t: Element Node"
-			],
-			[
-				"act",
-				"activatePanel"
-			],
-			[
-				"event",
-				"eventHandler"
-			],
-			[
-				"bind",
-				"bindEvents"
-			],
-			[
-				"min-",
-				"min-width"
-			],
-			[
-				"max",
-				"max-height"
-			],
-			[
-				"mar",
-				"margin"
-			],
-			[
-				"pad",
-				"padding"
-			],
-			[
-				"c",
-				"color"
-			],
-			[
-				"fea",
-				"feature"
-			],
-			[
-				"font",
-				"font-family"
-			],
-			[
-				"ta",
-				"text-align"
-			],
-			[
-				"ma",
-				"margin"
-			],
-			[
-				"teaser-card",
-				"teaser-card-inner"
-			],
-			[
-				"bac",
-				"background-position"
-			],
-			[
-				"min",
-				"min-height"
-			],
-			[
-				"inv",
-				"inViewArray"
-			],
-			[
 				"job",
 				"jobPosts"
 			],
@@ -168,12 +68,24 @@
 				"className\t: DOMString Element"
 			],
 			[
+				"max",
+				"max-width"
+			],
+			[
 				"inlin",
 				"inline-block"
 			],
 			[
+				"pad",
+				"padding-right"
+			],
+			[
 				"t",
 				"transparent"
+			],
+			[
+				"min",
+				"min-width"
 			],
 			[
 				"te",
@@ -207,6 +119,74 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/index.js",
+			"settings":
+			{
+				"buffer_size": 232,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/App.js",
+			"settings":
+			{
+				"buffer_size": 402,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import React from 'react';\n\n",
+			"file": "src/components/Masthead.js",
+			"file_size": 151,
+			"file_write_time": 131480748890000000,
+			"settings":
+			{
+				"buffer_size": 28,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/global/Header.js",
+			"settings":
+			{
+				"buffer_size": 311,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/global/Footer.js",
+			"settings":
+			{
+				"buffer_size": 187,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/History.js",
+			"settings":
+			{
+				"buffer_size": 234,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/components/Introduction.js",
+			"settings":
+			{
+				"buffer_size": 526,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/layouts/Home.js",
+			"settings":
+			{
+				"buffer_size": 295,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -224,7 +204,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 485.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -246,137 +226,140 @@
 	},
 	"expanded_folders":
 	[
+		"/Users/davidjones/Sites/dcj.codes",
+		"/Users/davidjones/Sites/dcj.codes/src",
+		"/Users/davidjones/Sites/dcj.codes/src/components",
+		"/Users/davidjones/Sites/dcj.codes/src/components/global",
+		"/Users/davidjones/Sites/dcj.codes/src/layouts"
 	],
 	"file_history":
 	[
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/media-slider.js",
-		"/Users/davidjones/Sites/adi-cfw/html/src/partials/mastheads/masthead-b.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/base/features_base.json",
-		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/base/mastheads_base.json",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/base/features-inline-video-native.hbs",
 		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/themebuilder.json",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/components/media-slider.less",
-		"/Users/davidjones/Sites/adi-cfw/html/templates/modal-base.mst",
-		"/Users/davidjones/Sites/adi-cfw/html/_scripts/themes/ocean-storm.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/head/head-css.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/icons/product-selector.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/drag-reveal.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/base/_picture-fill.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/pages/eretailer/test-harness.hbs",
 		"/Users/davidjones/Sites/adi-cfw/html/src/pages/_index.hbs",
 		"/Users/davidjones/Sites/adi-cfw/html/src/pages/icons/product-selector-smallscreen.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/icons/statement-smallscreen.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/base/media-slider-smallscreen.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/partials/media-slider/media-slider.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/Gruntfile.js",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/extra-pyrostorm-clp.less",
-		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/extra-pyrostorm-clp.css",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/mi-adidas/statement.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/base/unsupported-browser.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/pages/icons/product-selector-live-copy.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/_bb/eretailer.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/eretailer.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/eretailer/form.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/components/video-container.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/eretailer/_variables.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/foot/foot-scripts.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/sticky-area.js",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_scripts/themes/football-clubs.js",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_scripts/themes/day-one.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/base/_events.js",
+		"/Users/davidjones/Sites/adi-cfw/src/adi-campaign-framework/src/main/webapp/resources/_scripts/main.js",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_scripts/main.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/layouts/master-eretailer.hbs",
+		"/Users/davidjones/Sites/bb-careers/src/layouts/IndividualPost.js",
+		"/Users/davidjones/Sites/bb-careers/src/components/JobListings.js",
+		"/Users/davidjones/Sites/bb-careers/src/components/IndividualJobListing.js",
+		"/etc/apache2/users/dcj.conf",
+		"/Users/davidjones/Sites/bb-careers/src/layouts/Individual.js",
+		"/Users/davidjones/Sites/bb-careers/src/index.js",
+		"/Users/davidjones/Sites/bb-careers/src/components/Footer.js",
+		"/Users/davidjones/Sites/JavaScript30/04 - Array Cardio Day 1/index-FINISHED.html",
+		"/Users/davidjones/Sites/bb-careers/package.json",
+		"/Users/davidjones/Sites/bb-careers/src/App.js",
+		"/Users/davidjones/Sites/bb-careers/src/components/Menu.js",
+		"/Users/davidjones/Sites/bb-careers/src/components/Header.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/miadidas/selector_miadidas.json",
 		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/mi-adidas/features.less",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/mi-adidas-clp/features.less",
-		"/Users/davidjones/Sites/adi-cfw/html/src/partials/_bb/pyro-storm.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/pyro-storm.less",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/pyro-storm/_variables.less",
-		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/pyro-storm/pyro-storm-ace.json",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/pyro-storm/campaign-landing.hbs",
-		"/Users/davidjones/Desktop/notice-letter",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/pyro-storm/inner-x.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/pyro-storm/image-grid.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/pyro-storm/inner-ace.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/pyro-storm/inner-copa.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/pyro-storm/inner-nemezis-desktop.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/pyro-storm/inner-nemezis.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/pyro-storm/product-selector.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/pyro-storm/features.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/pyro-storm/dust-storm-product-selector.json",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/mi-adidas-clp/teasers.less",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/base/show-hide.less",
-		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/base/media_slider_base.json",
-		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/pyro-storm/dust-storm-x.json",
-		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/pyro-storm/dust-storm-ace.json",
-		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/pyro-storm/dust-storm-clp.json",
-		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/pyro-storm/dust-storm-copa.json",
-		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/pyro-storm/dust-storm-nemezis.json",
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/tilting-image/tilting-image.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/pages/base/tilting-images.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/data/components/tilting-image.json",
+		"/Users/davidjones/Sites/adi-cfw/html/src/pages/blue-blast/clp.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/components/tilting-image.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/base/tilting-image.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/components/tilting-image-b.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/base/tilting-image-b.less",
 		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/_order.less",
-		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/miadidas/miadidas-clp.json",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/miadidas/clp-page.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/mi-adidas-clp.css",
-		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/mi-adidas.css",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/components/email-capture.less",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/mi-adidas/masthead.less",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/mi-adidas/buttons.less",
-		"/Users/davidjones/Sites/JavaScript30/PULL_REQUEST_TEMPLATE.md",
-		"/Users/davidjones/Sites/JavaScript30/15 - LocalStorage/index-FINISHED.html",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/base.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/tilting-image/tilting-image-b.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/tilting-image.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/head/head-css-rtl.hbs",
 		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/mi-adidas/teasers.less",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/miadidas/inner-components.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/mi-adidas/buttons.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/miadidas/features_miadidas.json",
+		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/miadidas/teasers_miadidas.json",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/mi-adidas/statement.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/mi-adidas/_variables.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/components/statement.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/feature/feature.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/vendor/slick-carousel.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/base/slick.less",
+		"/Users/davidjones/Desktop/cv",
 		"/Users/davidjones/Sites/adi-cfw/html/src/pages/miadidas/selector-smallscreen.hbs",
 		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/mi-adidas.less",
-		"/Users/davidjones/Downloads/gob_glueckswalze.html",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/mi-adidas-clp/statements.less",
-		"/Users/davidjones/Downloads/miadidas_FW17_CLP_FeatureFlat_Desktop_Playicon_Hoverstate.png",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/mi-adidas/type.less",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/running-clp-2/feature.less",
-		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/base/email_capture_base.json",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/running-clp-2/email-capture.less",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/running-clp-2/demo-page-mobile.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/base/email-capture.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/running-clp-2/running-clp-2-features.json",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/running-clp-2/demo-page-desktop.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/partials/email-form/email-capture.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/base/imagegrid_base.json",
-		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/miadidas/miadidas-inner.json",
 		"/Users/davidjones/Sites/adi-cfw/html/src/pages/football-clubs/example-page.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/allday/allday-email-capture.json",
-		"/Users/davidjones/Sites/adi-cfw/html/src/partials/_bb/football-clubs.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/football-clubs/football-clubs-email-capture.json",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/base/email/email-capture.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/eretailer/test-harness.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/dust-storm/campaign-landing.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/dust-storm/inner-ace.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/dust-storm/inner-copa.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/dust-storm/inner-nemezis-desktop.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/dust-storm/inner-nemezis.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/dust-storm/inner-x.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/dust-storm/product-selector.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/components/date-picker.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/blue-blast/ace.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/blue-blast/clp.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/pure_boost_x/masthead-b-smallscreen.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/iframes/iframe-11teamsports.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/iframes/iframe-demo-mercury-x.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/iframes/iframe-dev-helloworld.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/iframes/iframe-local-mercury-x.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/iframes/iframe-ufomammoot.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/ubx_two/demo-page-smallscreen.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/tubular_two/demo-desktop.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/tubular_two/demo-smallscreen.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/temp/modal-message.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/base/email-capture.json",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/base/in-view.js",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/story-article.js",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/social-share.js",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/email-capture-form.js",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/base/email/email-capture-smallscreen.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/allday/demo-page-signup-desktop.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/allday/demo-page-signup-mobile.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/show-hide.js",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/olapic/olapic.js",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/olapic/olapic_b.js",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/olapic/olapic_legacy.js.ignore",
-		"/Users/davidjones/Sites/adi-cfw/html/untitled.css",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/mi-adidas/global.less",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/mi-adidas/product-selector.less",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/mi-adidas-clp.less",
-		"/Users/davidjones/Sites/adi-cfw/html/src/partials/videos/video-youtube.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/base/lazy-load.js",
-		"/Users/davidjones/Sites/adi-cfw/html/src/partials/mastheads/masthead.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/pages/tubular/index.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/data/components/mastheadsA.json",
-		"/Users/davidjones/Sites/adi-cfw/html/src/partials/image-grid/image-grid.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/sticky-area-b.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/components/image-grid.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/football-clubs/image-grid.less",
+		"/Users/davidjones/Sites/adi-cfw/html/Gruntfile.js",
+		"/Users/davidjones/Downloads/adidas.kdbx",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/lazy-load.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/feature/feature-non-lazy.hbs",
 		"/Users/davidjones/Sites/adi-cfw/html/src/partials/image-grid/image-grid-non-lazy.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/partials/mastheads/masthead-b-non-lazy.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/partials/mastheads/masthead-non-lazy.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/partials/olapic/olapic-feed-b.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/partials/olapic/olapic-feed.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/partials/product-selector/product-selector-b.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/partials/product-selector/product-selector-sticky.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/partials/product-selector/product-selector.hbs",
-		"/Users/davidjones/Sites/adi-cfw/html/src/partials/rss/rss-listing.hbs"
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/forms/actions.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/image-grid/image-grid.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_scripts/themes/parley-swim.min.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/pages/base/features-non-lazy.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/tealium-image.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/components/features.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/pages/base/features-justified.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/extra-blue-blast-clp/statement.less",
+		"/Users/davidjones/Sites/adi-cfw/html/node_modules/grunt-combine-js/package.json",
+		"/Users/davidjones/Sites/adi-cfw/html/node_modules/grunt-combine-js/README.md",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/scrollTo.js",
+		"/Users/davidjones/Sites/adi-cfw/html/node_modules/grunt-combine-js/tasks/combine_js.js",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_scripts/themes/mercury.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/base/olapic-feed.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/running-clp-laceless/masthead.less",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/running-clp-laceless.css",
+		"/Users/davidjones/Sites/adi-cfw/html/src/pages/running-clp-2/demo-page-mobile.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/running-clp-laceless/buttons.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/running-clp-laceless.less",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_scripts/themes/dust-storm-clp.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/menu.js",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_scripts/themes/base.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/running-clp-2/masthead.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/running-clp-2/buttons.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/pages/running-clp-2/demo-page-desktop.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/running-clp-laceless/_variables.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/running-clp-2/running-clp-2-mastheads.json",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts/modules/olapic-overlay.js",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/running-clp-2.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/adidas-overrides.less",
+		"/Users/davidjones/Sites/adi-cfw/html/src/pages/base/olapic-feed.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/src/partials/olapic/olapic-overlay.hbs",
+		"/Users/davidjones/Sites/adi-cfw/html/package.json",
+		"/Users/davidjones/Sites/adi-cfw/html/node_modules/grunt-combine-js/Gruntfile.js",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_scripts/themes/basic.js",
+		"/Users/davidjones/Sites/adi-cfw/html/_scripts/themes/superstar.min.js",
+		"/Users/davidjones/Sites/adi-cfw/html/_scripts/themes/superstar.js",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/*.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/dust-storm.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/extra-mercury-ace.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/main.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/blue-blast.min.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/blue-blast.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/extra-mercury-messi.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/extra-base-nmd.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/cyrillic.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/extra-sol-clp.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/allday.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/base.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/ubx.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/ubx_two.css",
+		"/Users/davidjones/Sites/adi-cfw/html/dist/_styles/base.min.css",
+		"/private/etc/apache2/users/davidjones.conf",
+		"/Users/davidjones/Downloads/-.html"
 	],
 	"find":
 	{
@@ -387,18 +370,6 @@
 		"height": 93.0,
 		"where_history":
 		[
-			"*.hbs",
-			"#meta",
-			"/Users/davidjones/Sites/adi-cfw/html/src/assets/styles/themes/pyro-storm",
-			"/Users/davidjones/Sites/adi-cfw/html/src/pages/pyro-storm",
-			"/Users/davidjones/Sites/adi-cfw/html/src/data/campaigns/pyro-storm",
-			"/Users/davidjones/Sites/adi-cfw/html/src/data",
-			"*.hbs",
-			"/Users/davidjones/Sites/adi-cfw/html/src/data",
-			"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts",
-			"*.js",
-			"*.hbs",
-			"",
 			"/Users/davidjones/Sites/adi-cfw/html/src/assets/scripts",
 			"",
 			"*.css",
@@ -414,134 +385,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"smartappmeta",
-			"smartAppMetaData",
-			"stati",
-			"data-src",
-			"feature",
-			"inline",
+			"title",
+			"solution",
+			"solution_themeScripts",
+			"copy:solution_themeScripts",
+			"solution",
+			"solution_styles",
+			"console.log",
+			"/smart-app-meta-data-injector.js",
+			"\n            \"src/assets/scripts/modules/smart-app-meta-data-injector.js\",",
+			"olapic-overlay-video.js\",",
+			"modules/olapic-overlay.js",
+			"parley",
+			"was",
+			"600px",
+			"include jquery",
+			"eretailer",
+			"stuck",
+			"headerredesign",
+			"headeredesign",
+			"console",
+			"build_sc",
+			"ie",
+			"ie.",
+			"rtl",
+			"ie",
+			"base",
+			"Home",
+			"18484",
+			"filter",
+			"18484\n",
+			"HelloWorld",
+			"menu--in",
+			"Introduction",
+			"sticky-in",
+			"sticky-",
+			"sticky",
+			"sticky-b",
+			"sticky-",
+			"sticky-h",
+			"sticky-he",
+			"sticky-b",
 			"video",
-			"inline",
-			"masthead_a_c",
-			"text_right_a\"",
-			"text_left_a",
-			"preva",
-			"clicken",
-			"handlePrevEvent",
-			"prevav",
-			"self.prevAvailable",
-			"noprevc",
-			"self.clickEndedA",
-			"nexts",
-			"self.prevAvailable",
-			"self.prevAvailable ",
-			"noPrevClass",
-			"template",
-			"must",
-			"ocean",
-			"title",
-			"productSlide",
-			"bg",
-			"#0092b8",
-			"dustStorm: true",
-			"dust-storm",
-			"prod_slide",
-			"\"slide\"",
-			"media-accordion",
-			"navig",
-			".png",
-			"scroll",
-			"media {",
-			"teaser",
-			"black",
-			"easer-bo",
-			"cta-d",
-			"card-in",
-			"card-in\\",
-			"card-in",
-			"Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
-			"teaser-me",
-			"subtitle",
-			"cta",
-			"title",
-			"body {",
-			"play",
-			"title",
-			"feature-video-button ",
-			"TEXT",
-			"style-c",
-			"> .btn",
-			"max",
-			"teaserbg",
+			">hero",
+			">masthead",
+			">header",
+			"head-css",
+			"header-css",
+			"header-logo",
+			"{{>hero",
+			"{{>HERO",
+			"BB",
+			"BUILDDING",
+			"BUILD",
+			"tilting-image/blue-blast/test_images/tilting-image/",
+			"temp/images/tilting-image/alternate/DT",
+			"temp/images/tilting-image/alternate/MB",
+			"tiltingImage",
+			"tiltin",
+			"-b",
 			"max-",
 			"bg",
-			"75%",
-			"5",
-			"50px",
-			"75%",
+			"base",
+			"ieCss",
+			"ie.cs",
+			"ie.c",
+			"main.css",
+			"ie.css",
+			"ie.c",
+			"ie.",
+			"cta",
+			"font",
+			"font-family: 'adihausDIN-medium', sans-serif;",
+			"font-f",
+			"adi",
+			"cta",
 			"copy",
-			"15",
-			"15px",
-			"27",
-			"feature-body ",
-			"true",
-			"animationsDisabled",
-			"true",
-			"title",
-			"unset",
-			"300px",
-			"mi-",
-			"play.",
-			"play",
-			"caro",
-			"style-a",
-			"styl",
-			"bgim",
-			"datacomponentname",
-			"teaser-style-a ",
-			"style-b",
-			"style-c",
-			"style-a",
-			"product",
-			"-style-a",
-			"jquery",
-			"50%",
-			"75%",
+			"OPY",
 			"75",
-			"text-",
-			"65%",
-			"@vr*10",
-			".png",
-			".",
-			"play",
-			"subti",
-			"title-st",
-			"left",
-			"masthead_a_left_1_img",
-			"componentPosition",
-			"imagegrid_blue",
-			"imagegrid_blue_btn_outline",
-			"imagegrid_black_btn_outline",
-			"imagegrid_black",
-			"imagegrid_white",
-			"imagegrid_btn_text",
-			"{{>image-grid imagegrid_base.imagegrid_btn_text}}",
-			"imagegrid_btn_outline",
-			"fire",
-			"height: 100%;",
-			"firef",
-			"main.js",
-			"carou",
-			"teaser-bg",
-			"Teaser with background - 3 Cards",
-			"feature-media-i",
-			"arrow",
-			"scroll",
-			"scro;l",
-			"arr",
-			"copy",
-			"class",
-			"vide"
+			"75px",
+			"red",
+			"temp/images/mi-adidas/teaser-main.png",
+			"base/",
+			"dot",
+			"slick",
+			"dot",
+			"slick",
+			"dot",
+			"cta",
+			"body",
+			"style-a",
+			"video",
+			"carouse",
+			"stuck'",
+			"top",
+			"top-",
+			"top-f",
+			"topf-",
+			"tile-col",
+			"tile-co",
+			"50%",
+			"teali",
+			"retailer",
+			"image-btn",
+			"parley-s",
+			"olapic-overlay.",
+			"olapic-overlay",
+			"src/assets/scripts/modules/olapic-",
+			"src/assets/scripts/modules/olapic",
+			"olapic",
+			"bicu",
+			"show-hide",
+			"scripts",
+			"scrolllock",
+			"\n            \"src/assets/scripts/modules/unsupported-browser.js\",",
+			"scrollo",
+			"scrollto",
+			"smoo",
+			"\n            \"src/assets/scripts/modules/smooth-scroll.js\",",
+			"\n            \"src/assets/scripts/modules/scrollTo.js\",",
+			"\"src/assets/scripts/modules/scrollTo.js\",",
+			"\n            \"src/assets/scripts/modules/in-view.js\",",
+			"\n            \"src/assets/scripts/modules/_swipe-script.js\",",
+			"smooth",
+			"tealium-c",
+			"\n            \"src/assets/scripts/modules/menu.js\",",
+			"action-menu",
+			"lazyload: ",
+			"\"src/assets/scripts/modules/lazy-load.js\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -549,17 +520,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"mediaSlider",
-			"#e95322",
-			"pyroStorm: true",
-			"pyro-storm",
-			"media_panel",
-			"\"panel\"",
-			"media-slider",
-			"Pure attitude",
-			"",
-			"componentOrder",
-			"'adineue-bold'",
 			"",
 			"olapic/olapic-overlay-video.js\",",
 			"modules/olapic/olapic-overlay.js",
@@ -583,8 +543,237 @@
 	"groups":
 	[
 		{
+			"selected": 6,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								232,
+								232
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/App.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 402,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/components/Masthead.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 28,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/components/global/Header.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 311,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/components/global/Footer.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/components/History.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 234,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26,
+								26
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/components/Introduction.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/layouts/Home.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								57
+							],
+							[
+								107,
+								107
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -641,38 +830,6 @@
 				"html/src/assets/scripts/themebuilder.json"
 			],
 			[
-				"moda-",
-				"html/templates/modal-base.mst"
-			],
-			[
-				"them",
-				"html/src/assets/scripts/themebuilder.json"
-			],
-			[
-				"",
-				"html/src/assets/scripts/themebuilder.json"
-			],
-			[
-				"_in",
-				"html/src/pages/_index.hbs"
-			],
-			[
-				"_ind",
-				"html/src/pages/_index.hbs"
-			],
-			[
-				"index",
-				"html/src/pages/tubular/index.hbs"
-			],
-			[
-				"themeb",
-				"html/src/assets/scripts/themebuilder.json"
-			],
-			[
-				"the",
-				"html/src/assets/scripts/themebuilder.json"
-			],
-			[
 				"head-css",
 				"html/src/partials/head/head-css.hbs"
 			],
@@ -681,8 +838,28 @@
 				"html/Gruntfile.js"
 			],
 			[
+				"",
+				"html/src/assets/scripts/themebuilder.json"
+			],
+			[
+				"the",
+				"html/src/assets/scripts/themebuilder.json"
+			],
+			[
 				"thme",
 				"html/src/assets/scripts/themebuilder.json"
+			],
+			[
+				"themeb",
+				"html/src/assets/scripts/themebuilder.json"
+			],
+			[
+				"them",
+				"html/src/assets/scripts/themebuilder.json"
+			],
+			[
+				"_ind",
+				"html/src/pages/_index.hbs"
 			]
 		],
 		"width": 0.0
@@ -698,12 +875,12 @@
 	},
 	"select_symbol":
 	{
-		"height": 392.0,
+		"height": 0.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 834.0
+		"width": 0.0
 	},
 	"selected_group": 0,
 	"settings":
@@ -713,7 +890,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 290.0,
+	"side_bar_width": 311.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
