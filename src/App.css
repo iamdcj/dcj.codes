@@ -2,9 +2,10 @@
 	text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 
-    --color-: #dc6007;
-    --color-b: #f74912;;
+    --color-a: #dc6007;
+    --color-b: #f74912;
     --color-c: #8e8c8c;
+    --color-d: #003FA3;
     --color-white: #fff;
     --color-black: #000;
 

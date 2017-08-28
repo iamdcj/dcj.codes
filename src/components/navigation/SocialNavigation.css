@@ -4,6 +4,7 @@
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	background: var(--color-white);
 }
 
 .navigation--social ul {
@@ -26,7 +27,7 @@
 	font-size: 12px;
 	text-decoration: none;
 	transition: color ease-in-out 250ms;
-	color: var(--color-white);
+	color: var(--color-d);
 }
 @media (min-width: 768px) {
   	.navigation--social li a {
