@@ -4,7 +4,7 @@
   "name": "dcj.codes",
   "description": "Personal Website for David Christian Jones",
   "repository": "https://github.com/iamDCJ/dcj.codes",
-  "homepage": "https://github.com/iamDCJ/dcj.codes",
+  "homepage": "https://iamdcj.github.io/dcj.codes/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
