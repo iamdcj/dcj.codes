@@ -1,9 +1,6 @@
 .navigation--social {
-	padding: calc(var(--vr)*3) 0;
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	left: 0;
+	padding: calc(var(--vr)*3) 20px;
+	float: right;
 	background: var(--color-white);
 }
 
@@ -22,8 +19,8 @@
 }
 
 .navigation--social li a {
+	padding: 0 6px calc(var(--vr)/2) 0;
 	border-bottom: 1px solid currentColor;
-	padding-bottom: calc(var(--vr)/2);
 	font-size: 12px;
 	text-decoration: none;
 	transition: color ease-in-out 250ms;
@@ -31,7 +28,7 @@
 }
 @media (min-width: 768px) {
   	.navigation--social li a {
-  		font-size: 18px;
+  		font-size: 16px;
   	}
 }
 

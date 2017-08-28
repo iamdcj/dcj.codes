@@ -21,15 +21,15 @@
 
 .masthead__title { 
 	float: left;
-	margin-bottom: calc(var(--vr));
+	margin-bottom: calc(var(--vr)*4);
 	font-size: 54px;
 	line-height: 66px;
 	font-family: "HelveticaNeue-Bold", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
 @media (min-width: 768px) {
 	.masthead__title { 
-		font-size: 80px;
-		line-height: 92px;
+		font-size: 86px;
+		line-height: 98px;
 	}
 }
 

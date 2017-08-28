@@ -1,6 +1,14 @@
 .site-footer {
-	position: fixed;
 	width: 100%;
-  	background: pink;
+	position: fixed;
+	bottom: 0;
+	display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
 }
 
+.copyright {
+	padding-right: 20px;
+	color: var(--color-white);
+}

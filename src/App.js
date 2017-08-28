@@ -19,6 +19,7 @@ const App = () => {
 		    	<Default />
 		    </main>
 
+		    <Footer />
 	    	
 	    </div>
     );

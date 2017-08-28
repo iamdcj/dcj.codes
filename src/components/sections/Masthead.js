@@ -16,8 +16,6 @@ const Masthead = () => {
 
 	    		<a href="mailto:david@dcj.codes" className="btn  btn--style-b">Get in touch &#8594;</a>
     		</div>
-
-        <SocialNavigation />
    		</section>
     );
 }
