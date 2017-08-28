@@ -1,14 +1,29 @@
 .site-header {
-	position: fixed;
+	position: absolute;
+	left: 40px;
+	top: calc(var(--vr)*4);
 	width: 100%;
-  	background: orange;
 }
 
 .site-header__title {
 	font-size: var(--font-size-d);
 }
 
+
+
 .site-logo {
+	font-family: "HelveticaNeue", Helvetica;
+	letter-spacing: 1px;
+	font-size: var(--font-size-c);
+	color: var(--color-b);
 	float: left;
+	text-decoration: none;
 }
+
+@media (min-width: 768px) {
+	.site-logo {
+		font-size: var(--font-size-d);
+	}
+}
+
 

@@ -6,7 +6,6 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin: 20px 20px;
 }
 
 .masthead__inner {
@@ -22,15 +21,28 @@
 .masthead__title { 
 	float: left;
 	margin-bottom: calc(var(--vr));
-	font-size: 80px;
-	line-height: 92px;
+	font-size: 54px;
+	line-height: 66px;
 	font-family: "HelveticaNeue-Bold", Helvetica, Arial, "Lucida Grande", sans-serif; 
 }
+@media (min-width: 768px) {
+	.masthead__title { 
+		font-size: 80px;
+		line-height: 92px;
+	}
+}
+
 
 .masthead__subtitle { 
+	font-size: 18px;
+	line-height: 30px;
 	clear: left;
-	font-size: 30px;
-	line-height: 42px;
 	font-family: Georgia; 
 	margin-bottom: calc(var(--vr)*4);
+}
+@media (min-width: 768px) {
+  .masthead__subtitle {
+	font-size: 30px;
+	line-height: 42px;
+  }
 }

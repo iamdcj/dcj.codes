@@ -2,6 +2,8 @@ import React from 'react';
 
 import styles from './Masthead.css';
 
+import SocialNavigation from '../navigation/SocialNavigation';
+
 const Masthead = () => {
     return (
    		<section className="[ masthead ]">
@@ -14,6 +16,8 @@ const Masthead = () => {
 
 	    		<a href="mailto:david@dcj.codes" className="btn">Get in touch</a>
     		</div>
+
+        <SocialNavigation />
    		</section>
     );
 }

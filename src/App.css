@@ -1,6 +1,7 @@
 :root {
-	// Color vars
-    --color-a: #dc6007;
+    --color-: #dc6007;
+    --color-b: #f74912;;
+    --color-c: #8e8c8c;
     --color-white: #fff;
     --color-black: #000;
 
@@ -38,6 +39,7 @@ body {
 }
 
 .btn {
-	color: #dc6007;
+	font-size: 18px;
+	color: var(--color-b);
 	font-family: "HelveticaNeue-Medium", Helvetica;
 }

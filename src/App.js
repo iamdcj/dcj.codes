@@ -14,7 +14,7 @@ const App = () => {
     return (
     	<div className="[ site-wrapper ]">
 	    	
-		    
+		    <Header />
 		    <main className="[ site-main ]" role="main">
 		    	<Default />
 		    </main>
