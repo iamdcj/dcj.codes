@@ -4,7 +4,7 @@
   "name": "dcj.codes",
   "description": "Personal Website for David Christian Jones",
   "repository": "https://github.com/iamDCJ/dcj.codes",
-  "homepage": "https://iamdcj.github.io/dcj.codes/",
+  "homepage": "https://iamdcj.github.io/dcj.codes",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "npm run build && gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
