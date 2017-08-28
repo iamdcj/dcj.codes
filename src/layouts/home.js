@@ -9,9 +9,6 @@ const Home = () => {
     return (
     	<div className="[ layout  layout--home ]">
 	    	<Masthead />
-	    	<Introduction />
-		    <History />
-		    <Blog />
 	    </div>
     );
 }

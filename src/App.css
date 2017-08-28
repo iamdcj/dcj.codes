@@ -1,8 +1,6 @@
 :root {
 	// Color vars
-    --color-a: red;
-    --color-b: blue;
-    --color-c: orange;
+    --color-a: #dc6007;
     --color-white: #fff;
     --color-black: #000;
 
@@ -12,6 +10,10 @@
     --font-size-b: calc(var(--vr)*5); 
     --font-size-c: calc(var(--vr)*7); 
     --font-size-d: calc(var(--vr)*9); 
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica;
 }
 
 .navigation__title {
@@ -35,6 +37,7 @@
 	width: auto;
 }
 
-.site-main {
-	padding-top: 64px;
+.btn {
+	color: #dc6007;
+	font-family: "HelveticaNeue-Medium", Helvetica;
 }

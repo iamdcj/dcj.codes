@@ -1,3 +1,36 @@
-.section--masthead {
-	background: grey;
+.masthead {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	min-height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 20px 20px;
+}
+
+.masthead__inner {
+	padding: 0 40px;
+}
+
+@media (min-width: 768px) {
+	.masthead__inner {
+		width: 60%;
+	}
+}
+
+.masthead__title { 
+	float: left;
+	margin-bottom: calc(var(--vr));
+	font-size: 80px;
+	line-height: 92px;
+	font-family: "HelveticaNeue-Bold", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+.masthead__subtitle { 
+	clear: left;
+	font-size: 30px;
+	line-height: 42px;
+	font-family: Georgia; 
+	margin-bottom: calc(var(--vr)*4);
 }
