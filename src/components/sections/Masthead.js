@@ -1,10 +1,10 @@
 import React from 'react';
 
-import styles from './Introduction.css';
+import styles from './Masthead.css';
 
-const Introduction = () => {
+const Masthead = () => {
     return (
-   		<section className="[ section  section--introduction ]">
+   		<section className="[ section  section--masthead ]">
 
     		<h2 className="[ section__heading ]"></h2>
 
@@ -14,4 +14,4 @@ const Introduction = () => {
     );
 }
 
-export default Introduction;
+export default Masthead;

@@ -1,13 +1,15 @@
 import React from 'react';
 
+import styles from './Header.css';
+
 import MainNavigation from '../navigation/MainNavigation';
+
 
 const Header = () => {
     return (
-      <header className="[ site-header ]">
+      <header className="[ site-header ]" role="header">
+      	<a className="[ site-logo ]" href="#" class="logo">DCJ</a>
       	<MainNavigation />
-      	<a href="#" class="logo">DCJ</a>
-      	<h2>Front-end Web Developer</h2>
       </header>
     );
 }

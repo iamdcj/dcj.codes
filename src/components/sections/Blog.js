@@ -1,5 +1,6 @@
 import React from 'react';
 
+import styles from './Blog.css';
 
 const Blog = () => {
     return (

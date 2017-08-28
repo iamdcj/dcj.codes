@@ -1,0 +1,40 @@
+:root {
+	// Color vars
+    --color-a: red;
+    --color-b: blue;
+    --color-c: orange;
+    --color-white: #fff;
+    --color-black: #000;
+
+    --vr: 6px;
+
+    --font-size-a: calc(var(--vr)*3); 
+    --font-size-b: calc(var(--vr)*5); 
+    --font-size-c: calc(var(--vr)*7); 
+    --font-size-d: calc(var(--vr)*9); 
+}
+
+.navigation__title {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+.navigation__title.focusable:active,
+.navigation__title.focusable:focus {
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
+}
+
+.site-main {
+	padding-top: 64px;
+}

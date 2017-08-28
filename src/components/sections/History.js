@@ -1,5 +1,7 @@
 import React from 'react';
 
+import styles from './History.css';
+
 const History = () => {
     return (
     <section className="[ section  section--history ]">
