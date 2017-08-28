@@ -10,12 +10,13 @@
 }
 
 .masthead__inner {
-	padding: 0 40px;
+	padding: 0 20px;
 }
 
 @media (min-width: 768px) {
 	.masthead__inner {
 		width: 60%;
+		padding: 0 40px;
 	}
 }
 
@@ -36,14 +37,14 @@
 
 .masthead__subtitle { 
 	font-size: 18px;
-	line-height: 30px;
+	line-height: 24px;
 	clear: left;
 	font-family: Georgia; 
 	margin-bottom: calc(var(--vr)*4);
 }
 @media (min-width: 768px) {
-  .masthead__subtitle {
-	font-size: 30px;
-	line-height: 42px;
-  }
+	.masthead__subtitle {
+		font-size: 30px;
+		line-height: 42px;
+	}
 }

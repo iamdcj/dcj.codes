@@ -64,8 +64,14 @@ a {
 
 .btn--style-b {
 	padding: 0 0 10px 0;
-	font-size: 18px;
+	font-size: 14px;
 	color: var(--color-white);
 	border-color: currentColor;
 	font-family: "HelveticaNeue-Light", Helvetica;
+}
+
+@media (min-width: 768px) {
+	.btn--style-b {
+		font-size: 18px;
+	}
 }

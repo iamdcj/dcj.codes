@@ -1,7 +1,13 @@
 .navigation--social {
-	padding: calc(var(--vr)*3) 20px;
+	width: 70%;
+	padding: 0 10px;
 	float: right;
 	background: var(--color-white);
+}
+@media (min-width: 768px) {
+	.navigation--social {
+		width: auto;
+	}
 }
 
 .navigation--social ul {
@@ -9,12 +15,15 @@
 }
 
 .navigation--social li {
-	display: inline-block;
-	padding: 0 10px;
+	display: block;
+	float: left;
+	width: 50%;
+	padding: var(--vr) 0 calc(var(--vr)*2) 0;
 }
 @media (min-width: 768px) {
   	.navigation--social li {
-		padding: 0 20px;
+  		width: auto;
+		padding: calc(var(--vr)*2) 10px;
   	}
 }
 

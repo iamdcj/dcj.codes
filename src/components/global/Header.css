@@ -1,7 +1,8 @@
 .site-header {
-	position: absolute;
-	left: 40px;
-	top: calc(var(--vr)*4);
+	position: fixed;
+	width: 100%;
+	padding: calc(var(--vr)*4) 20px;
+	z-index: 1;
 }
 
 
@@ -15,7 +16,7 @@
 	z-index: 1;
 	font-family: "HelveticaNeue", Helvetica;
 	letter-spacing: 1px;
-	font-size: var(--font-size-c);
+	font-size: var(--font-size-b);
 	color: var(--color-white);
 	float: left;
 	text-decoration: none;
