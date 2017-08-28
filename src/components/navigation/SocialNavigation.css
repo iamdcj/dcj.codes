@@ -21,9 +21,12 @@
 }
 
 .navigation--social li a {
+	border-bottom: 1px solid currentColor;
+	padding-bottom: calc(var(--vr)/2);
 	font-size: 12px;
+	text-decoration: none;
 	transition: color ease-in-out 250ms;
-	color: var(--color-c);
+	color: var(--color-white);
 }
 @media (min-width: 768px) {
   	.navigation--social li a {

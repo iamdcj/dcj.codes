@@ -1,4 +1,7 @@
 :root {
+	text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+
     --color-: #dc6007;
     --color-b: #f74912;;
     --color-c: #8e8c8c;
@@ -15,6 +18,11 @@
 
 body {
 	font-family: "Helvetica Neue", Helvetica;
+}
+
+main {
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 .navigation__title {
@@ -38,8 +46,25 @@ body {
 	width: auto;
 }
 
+a {
+	cursor: pointer;
+}
+
 .btn {
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: 1px solid;
+}
+
+.btn--style-a {
+	color: var(--color-white);
+	border-color: currentColor;
+}
+
+.btn--style-b {
+	padding: 0 0 10px 0;
 	font-size: 18px;
-	color: var(--color-b);
-	font-family: "HelveticaNeue-Medium", Helvetica;
+	color: var(--color-white);
+	border-color: currentColor;
+	font-family: "HelveticaNeue-Light", Helvetica;
 }

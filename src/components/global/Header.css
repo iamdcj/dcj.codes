@@ -2,23 +2,25 @@
 	position: absolute;
 	left: 40px;
 	top: calc(var(--vr)*4);
-	width: 100%;
 }
+
 
 .site-header__title {
 	font-size: var(--font-size-d);
 }
 
 
-
 .site-logo {
+	position: relative;
+	z-index: 1;
 	font-family: "HelveticaNeue", Helvetica;
 	letter-spacing: 1px;
 	font-size: var(--font-size-c);
-	color: var(--color-b);
+	color: var(--color-white);
 	float: left;
 	text-decoration: none;
 }
+
 
 @media (min-width: 768px) {
 	.site-logo {
