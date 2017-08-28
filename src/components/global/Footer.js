@@ -8,7 +8,7 @@ const Footer = () => {
     return (
 	    <footer className="[ site-footer ]">
 
-	    	<small className="copyright">&copy; DCJ</small>
+	    	<small className="copyright">&copy; dcj</small>
 
 	    	<SocialNavigation />
 
