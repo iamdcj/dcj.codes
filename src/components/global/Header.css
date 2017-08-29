@@ -4,7 +4,11 @@
 	padding: calc(var(--vr)*4) 20px;
 	z-index: 1;
 }
-
+@media (min-width: 768px) {
+	.site-header {
+		padding: calc(var(--vr)*4) 40px;
+	}
+}
 
 .site-header__title {
 	font-size: var(--font-size-d);
@@ -14,10 +18,11 @@
 .site-logo {
 	position: relative;
 	z-index: 1;
-	font-family: "HelveticaNeue", Helvetica;
+	font-family: "HelveticaNeue-Thin", Helvetica;
+	font-weight: 200;
 	letter-spacing: 1px;
 	font-size: var(--font-size-b);
-	color: var(--color-white);
+	color: var(--color-d);
 	float: left;
 	text-decoration: none;
 }

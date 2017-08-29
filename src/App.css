@@ -58,14 +58,14 @@ a {
 }
 
 .btn--style-a {
-	color: var(--color-white);
+	color: var(--color-d);
 	border-color: currentColor;
 }
 
 .btn--style-b {
 	padding: 0 0 10px 0;
 	font-size: 14px;
-	color: var(--color-white);
+	color: var(--color-d);
 	border-color: currentColor;
 	font-family: "HelveticaNeue-Light", Helvetica;
 }

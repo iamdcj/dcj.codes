@@ -1,17 +1,11 @@
 .masthead {
 	position: relative;
-	height: calc(100vh - 75px);
+	height: calc(100vh);
 	width: 100vw;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background: var(--color-d);
-	color: white;
-}
-@media (min-width: 768px) {
-	.masthead {
-		height: calc(100vh - 40px);
-	}
+	color: #003FA3;
 }
 
 .masthead__inner {
@@ -20,8 +14,14 @@
 
 @media (min-width: 768px) {
 	.masthead__inner {
-		width: 60%;
+		width: 75%;
 		padding: 0 40px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.masthead__inner { 
+		width: 60%;
 	}
 }
 
@@ -45,7 +45,7 @@
 	line-height: 24px;
 	clear: left;
 	font-family: Georgia; 
-	margin-bottom: calc(var(--vr)*4);
+	margin-bottom: calc(var(--vr)*6);
 }
 @media (min-width: 768px) {
 	.masthead__subtitle {

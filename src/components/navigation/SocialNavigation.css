@@ -2,7 +2,7 @@
 	width: 70%;
 	padding: 0 10px;
 	float: right;
-	background: var(--color-white);
+	background: var(--color-d);
 }
 @media (min-width: 768px) {
 	.navigation--social {
@@ -33,7 +33,7 @@
 	font-size: 12px;
 	text-decoration: none;
 	transition: color ease-in-out 250ms;
-	color: var(--color-d);
+	color: var(--color-white);
 }
 @media (min-width: 768px) {
   	.navigation--social li a {

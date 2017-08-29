@@ -1,24 +1,17 @@
 .site-footer {
 	width: 100%;
-    height: 75px;
 	position: relative;
 	display: flex;
     justify-content: flex-end;
     flex-direction: row;
     align-items: center;
-    background: var(--color-d);
-}
-@media (min-width: 768px) {
-	.site-footer {
-		height: 40px;
-	}
 }
 
 .copyright {
 	width: 30%;
 	text-align: center;
 	padding: 10px;
-	color: var(--color-white);
+	color: var(--color-d);
 }
 
 @media (min-width: 768px) {
