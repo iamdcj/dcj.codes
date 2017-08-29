@@ -18,10 +18,7 @@
 .site-logo {
 	position: relative;
 	z-index: 1;
-	font-family: "HelveticaNeue-Thin", Helvetica;
-	font-weight: 200;
 	letter-spacing: 1px;
-	font-size: var(--font-size-b);
 	color: var(--color-d);
 	float: left;
 	text-decoration: none;
@@ -30,7 +27,7 @@
 
 @media (min-width: 768px) {
 	.site-logo {
-		font-size: var(--font-size-d);
+		font: 100 var(--font-size-d)/var(--font-size-d) var(--font-fam-thin);
 	}
 }
 

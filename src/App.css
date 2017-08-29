@@ -11,14 +11,23 @@
 
     --vr: 6px;
 
+    --font-size-small: 14px; 
     --font-size-a: calc(var(--vr)*3); 
     --font-size-b: calc(var(--vr)*5); 
     --font-size-c: calc(var(--vr)*7); 
     --font-size-d: calc(var(--vr)*9); 
-}
+
+    --font-fam-thin: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    --font-fam-light: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    --font-fam-medium: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    --font-fam-strong: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+    --font-fam-b: Georgia, Times, "Times New Roman", serif;
+}	
+
 
 body {
-	font-family: "Helvetica Neue", Helvetica;
+	font-family: var(--font-fam-medium);
 }
 
 main {
@@ -63,15 +72,15 @@ a {
 }
 
 .btn--style-b {
-	padding: 0 0 10px 0;
-	font-size: 14px;
+	padding: 0 0 var(--vr) 0;
+	font-size: var(--font-size-small);
 	color: var(--color-d);
 	border-color: currentColor;
-	font-family: "HelveticaNeue-Light", Helvetica;
+	font-family: var(--font-fam-light);
 }
 
 @media (min-width: 768px) {
 	.btn--style-b {
-		font-size: 18px;
+		font-size: var(--font-size-a);
 	}
 }
