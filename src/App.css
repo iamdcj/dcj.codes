@@ -1,7 +1,6 @@
 :root {
-	text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-
+	height: 100%;
+	overflow-y: auto;
     --color-a: #dc6007;
     --color-b: #f74912;
     --color-c: #8e8c8c;
@@ -30,7 +29,20 @@ body {
 	font-family: var(--font-fam-medium);
 }
 
-main {
+.site-wrapper {
+	display: grid;
+	grid-template-columns: 100vw;
+    grid-template-rows: auto calc(100vh - 140px) auto;
+    grid-template-areas:
+      "header"   
+      "content"
+      "footer";
+     align-items: center;
+}
+
+.site-main {
+	text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
 	max-width: 100%;
 	overflow-x: hidden;
 }

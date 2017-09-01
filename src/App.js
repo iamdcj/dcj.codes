@@ -1,7 +1,9 @@
 import React from 'react';
 
 import resetStyles from './Reset.css';
+import grid from './Grid.css';
 import globalStyles from './App.css';
+
 
 // Globals
 import Header from './components/global/Header';

@@ -1,21 +1,17 @@
 .site-footer {
-	width: 100%;
 	position: relative;
-	display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    align-items: center;
 }
 
 .copyright {
-	width: 30%;
-	text-align: center;
 	padding: 10px;
+	text-align: center;
 	color: var(--color-d);
 }
 
+
 @media (min-width: 768px) {
-	.copyright {
-		width: auto;
+	.copyright { 
+		text-align: right;
 	}
 }
+

@@ -6,9 +6,9 @@ import SocialNavigation from '../navigation/SocialNavigation';
 
 const Footer = () => {
     return (
-	    <footer className="[ site-footer ]">
+	    <footer className="[ site-footer ]  grid">
 
-	    	<small className="copyright">&copy; dcj</small>
+	    	<small className="[ copyright ]  grid__item  one-quarter  tab--two-thirds">&copy; dcj</small>
 
 	    	<SocialNavigation />
 

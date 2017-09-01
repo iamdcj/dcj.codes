@@ -1,13 +1,6 @@
 .navigation--social {
-	width: 70%;
 	padding: 0 10px;
-	float: right;
 	background: var(--color-d);
-}
-@media (min-width: 768px) {
-	.navigation--social {
-		width: auto;
-	}
 }
 
 .navigation--social ul {

@@ -1,6 +1,5 @@
 .site-header {
-	position: fixed;
-	width: 100%;
+	max-width: 100%;
 	padding: calc(var(--vr)*4) 20px;
 	z-index: 1;
 }
@@ -22,6 +21,7 @@
 	color: var(--color-d);
 	float: left;
 	text-decoration: none;
+	font: 100 var(--font-size-b)/var(--font-size-b) var(--font-fam-thin);
 }
 
 
