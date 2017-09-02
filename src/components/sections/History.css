@@ -1,8 +1,9 @@
-.section--history {
-	margin:  0 20px;
-	height: 100vh;
+@media (min-width: 768px) {
+	.section--history {
+		margin:  0 20px;
+	}
 }
 
 .section--history .section__body {
-	grid-column-gap: 20px;
+	grid-column-gap: 40px;
 }

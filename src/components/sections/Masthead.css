@@ -2,6 +2,7 @@
 	height: calc(100vh - 78px);
 	position: relative;
 	color: #003FA3;
+    align-items: center;
 }
 
 .masthead__inner {
@@ -16,11 +17,11 @@
 .masthead__title { 
 	float: left;
 	margin-bottom: calc(var(--vr)*4);
-	font: 800 54px/66px var(--font-fam-medium);
+	font: 800 72px/66px var(--font-fam-medium);
 }
 @media (min-width: 768px) {
 	.masthead__title { 
-		font: 800 86px/98px var(--font-fam-medium);
+		font: 800 98px/104px var(--font-fam-medium);
 	}
 }
 

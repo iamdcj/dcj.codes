@@ -9,8 +9,8 @@ const History = () => {
     <section className="[ section  section--history ]">
 
     	<header className="section__header">
-    		<h2 className="[ section__heading ]">Where I have done it</h2>
-    		<p className="[ section__subtitle ]">I have done the following jobs at the following places...</p>
+    		<h2 className="[ section__heading ]">Where I've done it.</h2>
+    		<p className="[ section__subtitle ]">I have done the above at the following agencies:</p>
     	</header>
 
     	<div className="section__body  grid">

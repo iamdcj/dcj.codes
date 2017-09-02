@@ -15,6 +15,7 @@
 		transition: all 250ms ease-in;
 	}
 
+
 	.card:hover .card__inner .card__header,
 	.card:hover .card__inner .card__body {
 		opacity: 1;
@@ -40,7 +41,10 @@
 
 	
 	.card__inner {
-		background: transparent;
+		min-height: 300px;
+		width: 100%;
+		border: 1px solid var(--color-d);
+		margin-bottom: 18px;
 		position: relative;
 		display: flex;
 		overflow: hidden;
@@ -48,11 +52,15 @@
 		z-index: 0;
 		justify-content: center;
 		align-items: center;
-		min-height: 450px;
-		width: 100%;
+		background: transparent;
 		color: var(--color-d);
-		border: 1px solid var(--color-d);
 		transition: all 250ms ease-in-out;
+	}
+	@media (min-width: 768px) {
+		.card__inner {
+			min-height: 450px;
+			margin-bottom: 0;
+		}
 	}
 
 		.card__logo {

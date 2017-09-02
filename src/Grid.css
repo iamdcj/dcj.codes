@@ -1,7 +1,6 @@
 .grid {
 	display: grid;
   	grid-template-columns: repeat(var(--grid-col-number), [col] 1fr);
-  	align-items: center;
 
 
   	--grid-col-number: 12;
