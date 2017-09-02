@@ -21,14 +21,7 @@
 	color: var(--color-d);
 	float: left;
 	text-decoration: none;
-	font: 100 var(--font-size-b)/var(--font-size-b) var(--font-fam-thin);
-}
-
-
-@media (min-width: 768px) {
-	.site-logo {
-		font: 100 var(--font-size-d)/var(--font-size-d) var(--font-fam-thin);
-	}
+	font: 200 var(--font-size-b)/var(--font-size-b) var(--font-fam-light);
 }
 
 

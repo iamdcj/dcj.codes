@@ -4,7 +4,12 @@
 }
 
 .masthead__inner {
-	padding: 0 20px;
+	padding: 20px;
+}
+@media (min-width: 768px) {
+	.masthead__inner { 
+		padding: 20px 60px;
+	}
 }
 
 .masthead__title { 
