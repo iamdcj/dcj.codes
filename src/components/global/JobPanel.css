@@ -1,0 +1,41 @@
+.card {
+	padding: 20px 10px;
+}
+
+	.card__inner {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		min-height: 600px;
+		width: 100%;
+		color: var(--color-d);
+		border: 1px solid currentColor;
+		transition: all 250ms ease-in-out;
+	}
+	.card__inner:hover {
+		background: var(--color-d);
+		color: var(--color-white);
+	}
+	.card__inner:hover .card__logo svg {
+		fill: var(--color-white);
+	}
+
+		.card__logo {
+			display: inline-block;
+   		 	width: 40%;
+    		height: auto;
+		}
+			.card__logo svg {
+				fill: var(--color-d);
+			}
+
+		.card__body,
+		.card__header {
+			display: none;
+		}
+
+		.card__title {
+			font: 400 30px/42px var(--font-fam-medium);
+			margin-bottom: 12px;
+		}
