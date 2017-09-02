@@ -99,18 +99,19 @@ a {
 
 .section__header {
 	text-align: center;
+	margin-bottom: 24px;
 }
 
-.section__heading {
-	margin-bottom: 12px;
-	font: 800 42px/48px var(--font-fam-strong);
-	color: var(--color-d);
-}
+	.section__heading {
+		margin-bottom: 12px;
+		font: 800 42px/48px var(--font-fam-strong);
+		color: var(--color-d);
+	}
 
-.section__subtitle {
-	font: 200 18px/24px var(--font-fam-light);
-	color: var(--color-d);
-}
+	.section__subtitle {
+		font: 200 18px/24px var(--font-fam-light);
+		color: var(--color-d);
+	}
 
 .cntr {
 	text-align: center;
