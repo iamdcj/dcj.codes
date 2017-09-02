@@ -9,6 +9,7 @@ const Home = () => {
     return (
     	<div className="[ layout  layout--home ]">
 	    	<Masthead />
+	    	<History />
 	    </div>
     );
 }

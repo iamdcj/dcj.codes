@@ -3,7 +3,7 @@
   	grid-template-columns: repeat(var(--grid-col-number), [col] 1fr);
   	align-items: center;
 
-  	
+
   	--grid-col-number: 12;
 }
 
@@ -13,6 +13,10 @@
 
 .one-third {
 	grid-column: span 4;
+}
+
+.one-half {
+	grid-column: span 6;
 }
 
 .two-thirds {
@@ -36,6 +40,10 @@
 		grid-column: span 8;
 	}
 
+	.tab--one-half {
+		grid-column: span 6;
+	}
+
 	.tab--one-quarter {
 		grid-column: span 3;
 	}
@@ -52,6 +60,10 @@
 
 	.desk--two-thirds {
 		grid-column: span 8;
+	}
+
+	.desk--one-half {
+		grid-column: span 6;
 	}
 
 	.desk--one-quarter {
