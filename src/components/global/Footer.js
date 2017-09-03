@@ -8,7 +8,7 @@ const Footer = () => {
     return (
 	    <footer className="[ site-footer ]  grid">
 
-	    	<small className="[ copyright ]  grid__item  one-quarter  tab--two-thirds">&copy; dcj</small>
+	    	<div className="grid__item  one-quarter  tab--two-thirds"><small className="[ copyright ]">&copy; dcj</small></div>
 
 	    	<SocialNavigation />
 

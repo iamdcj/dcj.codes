@@ -5,7 +5,7 @@
 }
 @media (min-width: 768px) {
 	.site-header {
-		padding: calc(var(--vr)*4) 40px;
+		padding: calc(var(--vr)*4) 60px;
 	}
 }
 

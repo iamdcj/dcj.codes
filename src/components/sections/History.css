@@ -1,7 +1,6 @@
-@media (min-width: 768px) {
-	.section--history {
-		margin:  0 20px;
-	}
+.section--history {
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 .section--history .section__body {

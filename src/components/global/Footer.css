@@ -1,17 +1,19 @@
 .site-footer {
+	padding: 20px 60px;
 	position: relative;
+	background: var(--color-d);
+	align-items: center;
 }
 
 .copyright {
-	padding: 10px;
 	text-align: center;
-	color: var(--color-d);
+	color: var(--color-white);
 }
 
 
 @media (min-width: 768px) {
 	.copyright { 
-		text-align: right;
+		text-align: left;
 	}
 }
 

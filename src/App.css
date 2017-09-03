@@ -28,6 +28,7 @@
 body {
 	font-family: var(--font-fam-medium);
 	color: var(--color-d);
+	background-color: var(--color-white);
 }
 
 h5 {
@@ -84,6 +85,10 @@ a {
 	border-bottom: 1px solid;
 }
 
+.btn:visited {
+	color: currentColor;
+}
+
 .btn--style-a {
 	color: var(--color-d);
 	border-color: currentColor;
@@ -104,21 +109,21 @@ a {
 }
 
 li {
-	font: 200 16px/22px var(--font-fam-medium);
+	font: 200 18px/22px var(--font-fam-b);
 	margin-bottom: 12px;
 }
 
 .section {
-	padding:  120px 20px;
+	padding:  90px 20px 90px 20px;
 }
 
 .section__header {
 	text-align: center;
-	margin-bottom: 36px;
+	margin-bottom: 72px;
 }
 
 	.section__heading {
-		margin-bottom: 12px;
+		margin-bottom: 24px;
 		font: 800 36px/48px var(--font-fam-strong);
 		color: var(--color-d);
 	}
@@ -136,11 +141,25 @@ li {
 	}
 	@media (min-width: 768px) {
 		.section__subtitle {
-			width: 75%;
-			font: 200 20px/26px var(--font-fam-b);
+			width: 60%;
+			font: 200 24px/36px var(--font-fam-b);
 			color: var(--color-d);
 		}
 	}
+	.section__subtitle p {
+		margin-bottom: 18px;
+	}
+
+.section--style-b {
+	background: var(--color-d);
+	color: var(--color-white);
+}
+
+.section--style-b .section__heading,
+.section--style-b .section__subtitle, 
+.section--style-b *  {
+	color: var(--color-white);
+}
 
 .cntr {
 	text-align: center;

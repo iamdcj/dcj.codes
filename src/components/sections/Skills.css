@@ -1,0 +1,22 @@
+.section--skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 1200px) {
+	.section--skills  .section__body {
+		width: 50%;
+	}
+}
+
+.list-block {
+	padding: 0 20px;
+	margin-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+	.list-block {
+		min-width: 250px;
+	}
+}

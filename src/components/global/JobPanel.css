@@ -6,7 +6,7 @@
 		display: block;
 		width: 105%;
 		height: 100%;
-		background: var(--color-d);
+		background: var(--color-white);
 		position: absolute;
 		top: 0;
 		left: 50%;
@@ -27,7 +27,7 @@
 
 
 	.card:hover .card__logo svg {
-		fill: var(--color-white);
+		fill: var(--color-d);
 	}
 	.card:hover .card__logo {
 		transform: translate(-50%, -100%);
@@ -41,9 +41,9 @@
 
 	
 	.card__inner {
-		min-height: 300px;
+		min-height: 240px;
 		width: 100%;
-		border: 1px solid var(--color-d);
+		border: 1px solid var(--color-white);
 		margin-bottom: 18px;
 		position: relative;
 		display: flex;
@@ -53,12 +53,12 @@
 		justify-content: center;
 		align-items: center;
 		background: transparent;
-		color: var(--color-d);
+		color: var(--color-white);
 		transition: all 250ms ease-in-out;
 	}
 	@media (min-width: 768px) {
 		.card__inner {
-			min-height: 450px;
+			min-height: 360px;
 			margin-bottom: 0;
 		}
 	}
@@ -75,7 +75,7 @@
     		height: auto;
 		}
 			.card__logo svg {
-				fill: var(--color-d);
+				fill: var(--color-white);
 			}
 
 		.card__header {
