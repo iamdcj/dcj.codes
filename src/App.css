@@ -1,14 +1,15 @@
 :root {
 	height: 100%;
 	overflow-y: auto;
-    --color-a: #dc6007;
-    --color-b: #f74912;
-    --color-c: #8e8c8c;
-    --color-d: #003FA3;
+
+
+    --color-d: #023fa3;
     --color-white: #fff;
     --color-black: #000;
 
+
     --vr: 6px;
+
 
     --font-size-small: 14px; 
     --font-size-a: calc(var(--vr)*3); 
@@ -16,35 +17,55 @@
     --font-size-c: calc(var(--vr)*7); 
     --font-size-d: calc(var(--vr)*9); 
 
+
     --font-fam-thin: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     --font-fam-light: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     --font-fam-medium: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     --font-fam-strong: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
+
     --font-fam-b: Georgia, Times, "Times New Roman", serif;
 }	
 
+* {
+    box-sizing: border-box;
+}
 
 body {
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-family: var(--font-fam-medium);
+	color: #023fa3;
 	color: var(--color-d);
+	background-color: #fff;
 	background-color: var(--color-white);
 }
 
 h5 {
+	font: 600 20px/28px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font: 600 20px/28px var(--font-fam-medium);
 	margin-bottom: 18px;
 }
 
-.site-wrapper {
-	display: grid;
-	grid-template-columns: 100vw;
-    grid-template-rows: auto auto auto;
-    grid-template-areas:
-      "header"   
-      "content"
-      "footer";
-     align-items: center;
+hr {
+	display: inline-block;
+	width: 30px;
+	border-color: #023fa3;
+	border-color: var(--color-d);
+	margin: 18px 0;
+}
+
+@supports (display: grid) {
+	.site-wrapper {
+		display: grid;
+		grid-template-columns: 100vw;
+	    grid-template-rows: auto auto auto;
+	    grid-template-areas:
+	      "header"   
+	      "content"
+	      "footer";
+	     align-items: center;
+	}
+
 }
 
 .site-main {
@@ -89,7 +110,12 @@ a {
 	color: currentColor;
 }
 
+.btn:hover {
+	color: currentColor;
+}
+
 .btn--style-a {
+	color: #023fa3;;
 	color: var(--color-d);
 	border-color: currentColor;
 }
@@ -97,7 +123,8 @@ a {
 .btn--style-b {
 	padding: 0 0 var(--vr) 0;
 	font-size: var(--font-size-small);
-	color: var(--color-d);
+	color: #fff;
+	color: var(--color-white);
 	border-color: currentColor;
 	font-family: var(--font-fam-light);
 }
@@ -114,50 +141,69 @@ li {
 }
 
 .section {
-	padding:  90px 20px 90px 20px;
+	padding:  0 20px 30px 20px;
 }
+@media (min-width: 768px) {
+	.section {
+		padding:  0 20px 120px 20px;
+	}
+}
+
+	.section p {
+		font: 200 18px/24px var(--font-fam-b);
+		text-align: center;
+	}
+	@media (min-width: 768px) {
+		.section p {
+			font: 200 24px/36px var(--font-fam-b);
+			text-align: center;
+		}
+	}
 
 .section__header {
 	text-align: center;
-	margin-bottom: 72px;
+	color: #023fa3;
+	color: var(--color-d);
 }
 
 	.section__heading {
-		margin-bottom: 24px;
+		margin-bottom: 18px;
 		font: 800 36px/48px var(--font-fam-strong);
-		color: var(--color-d);
 	}
 	@media (min-width: 768px) {
 		.section__heading {
 			font: 800 60px/72px var(--font-fam-strong);
-			color: var(--color-d);
 		}
 	}
 
 	.section__subtitle {
+		margin-bottom: 48px;
+	}
+
+	.section__subtitle,
+	.section__body {
 		display: inline-block;
-		font: 200 18px/24px var(--font-fam-light);
-		color: var(--color-d);
+	}
+
+	.section__body {
+		padding-bottom: 36px;
 	}
 	@media (min-width: 768px) {
-		.section__subtitle {
+		.section__body {
 			width: 60%;
-			font: 200 24px/36px var(--font-fam-b);
-			color: var(--color-d);
 		}
 	}
-	.section__subtitle p {
-		margin-bottom: 18px;
+
+	.section__closing {
+		text-align: center;
 	}
+		
+
 
 .section--style-b {
+	background: #023fa3;
 	background: var(--color-d);
-	color: var(--color-white);
-}
-
-.section--style-b .section__heading,
-.section--style-b .section__subtitle, 
-.section--style-b *  {
+	color: #fff;
 	color: var(--color-white);
 }
 

@@ -1,11 +1,14 @@
 .site-header {
+	position: absolute;
+	top: 0;
+	left: 0;
 	max-width: 100%;
-	padding: calc(var(--vr)*4) 20px;
-	z-index: 1;
+	padding: calc(6px * 4) 20px;
+	z-index: 2;
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
 	.site-header {
-		padding: calc(var(--vr)*4) 60px;
+		padding: calc(6px * 4) 60px;
 	}
 }
 
@@ -18,10 +21,18 @@
 	position: relative;
 	z-index: 1;
 	letter-spacing: 1px;
-	color: var(--color-d);
+	color: #fff;
+	color: var(--color-white);
 	float: left;
 	text-decoration: none;
-	font: 200 var(--font-size-b)/var(--font-size-b) var(--font-fam-light);
+	font: 200 var(--font-size-b)/var(--font-size-b) var(--font-fam-thin);
+	width: 50px;
+	padding: 0 20px 10px 0;
+	text-transform: lowercase;
 }
 
 
+.site-logo--footer {
+	display: inline-block;
+	width: 25px;
+}

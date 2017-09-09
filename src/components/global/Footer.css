@@ -1,12 +1,15 @@
 .site-footer {
+	display: flex;
 	padding: 20px 60px;
 	position: relative;
+	background: #023fa3;
 	background: var(--color-d);
 	align-items: center;
 }
 
 .copyright {
 	text-align: center;
+	color: #fff;
 	color: var(--color-white);
 }
 
@@ -14,6 +17,7 @@
 @media (min-width: 768px) {
 	.copyright { 
 		text-align: left;
+		font-family: var(--font-fam-thin);
 	}
 }
 

@@ -7,39 +7,36 @@ const Skills = () => {
    		<section className="[ section  section--skills ]">
 
     		<header className="section__header">
-    			<h2 className="[ section__heading ]">Good. Bad. Shite.</h2>
-    			<div className="[ section__subtitle ]">
 
-    				<p>Front-end web development is an ever-evolving discipline, and it can be tricky to keep track of all the new and shiny things&hellip;so I don&rsquo;t really bother with that, I just concentrate on the key aspects front-end web development.</p>
+    			<h2 className="[ section__heading ]">Skills</h2>
+    				
+    			<p className="[ section__subtitle ]">Here is what I do know, what I want to know,<br /> and what I (probably) never will know:</p>
 
-    				<p>Here is what I know, what I want to know, and what I (probably) never will know:</p>
-
-    			</div>
     		</header>
-
 
     		<div className="section__body  grid">
 
-                <div className="[ list-block ]  grid__item  tab--one-third">
-                    <h5>Proficient</h5>
+                <div className="[ list-block ]  grid__item  phab--one-third">
+                    <h5>Good</h5>
                     <ul>
-                        <li><abbr title="Hyper-text Markup Language">HTML</abbr></li>
-                        <li><abbr title="Cascading Style Sheets">CSS</abbr>	(Less and Sass)</li>
+                        <li><abbr title="HyperText Markup Language">HTML</abbr>[5]</li>
+                        <li><abbr title="Cascading Style Sheets">CSS</abbr>[3]	(Less and Sass)</li>
                         <li>JavaScript (jQuery)</li>
                         <li>Gulp and Grunt</li>
                     </ul>
                 </div>
 
-                <div className="[ list-block ]  grid__item  tab--one-third">
+                <div className="[ list-block ]  grid__item  phab--one-third">
                     <h5>Improving</h5>                    
                     <ul>
+                        <li><abbr title="Cascading Style Sheets">CSS</abbr>[4]</li>
                         <li><abbr title="ECMAScript">ES</abbr>.Next (ES6 onwards)</li>
                         <li>ReactJS (and Redux)</li>
                         <li>Webpack</li>
                     </ul>
                 </div>
 
-                <div className="[ list-block ]  grid__item  tab--one-third">
+                <div className="[ list-block ]  grid__item  phab--one-third">
                     <h5>Shite</h5>                    
                     <ul>
                         <li>.NET</li>
@@ -48,6 +45,10 @@ const Skills = () => {
                     </ul>
                 </div>
 
+    		</div>
+
+    		<div className="section__closing">
+                <p>I am currently doing all of the above over at <a href="http://www.building-blocks.com" target="blank" className="btn ">Building Blocks</a>.</p>
     		</div>
 
    		</section>

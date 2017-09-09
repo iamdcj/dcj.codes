@@ -21,6 +21,7 @@
 	font-size: 12px;
 	text-decoration: none;
 	transition: color ease-in-out 250ms;
+	color: #fff;
 	color: var(--color-white);
 }
 @media (min-width: 768px) {
@@ -30,5 +31,5 @@
 }
 
 .navigation--social li a:hover {
-	color: var(--color-b);
+	color: #fff;
 }

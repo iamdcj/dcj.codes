@@ -4,18 +4,29 @@ import styles from './Masthead.css';
 
 import SocialNavigation from '../navigation/SocialNavigation';
 
+import backgroundSmall  from '../../media/bg-mob.jpg';
+import background  from '../../media/bg.jpg';
+
+console.log(background);
+
 const Masthead = () => {
     return (
    		<section className="[ masthead ]  grid">
 
-   			<div className="masthead__inner  grid__item  desk--two-thirds">
+   			<div className="masthead__inner  grid__item tab--three-quarters">
 	    		<h2 className="[ masthead__title ]">Hello</h2>
 
-	    		<p className="[ masthead__subtitle ]">I am David Christian Jones, a Manchester&ndash;based <br/> front&ndash;end web developer.</p>
+	    		<p className="[ masthead__subtitle ]">I am David Christian Jones,<br/> a modern Front&ndash;end web developer<br/> based in the North of England.</p>
 
 	    		<a href="mailto:david@dcj.codes" className="btn  btn--style-b">Get in touch &#8594;</a>
 
+	    		
     		</div>
+
+    		<picture className="masthead__bg">
+    			<source media="(min-width: 768px)" srcSet={background}/>
+				<img srcSet={backgroundSmall} src={background} alt="Slide Image" />
+			</picture>
    		</section>
     );
 }

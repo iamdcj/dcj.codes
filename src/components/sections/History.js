@@ -9,15 +9,18 @@ const History = () => {
     <section className="[ section  section--history ]  section--style-b">
 
     	<header className="section__header">
-    		<h2 className="[ section__heading ]">Where I've been.</h2>
-    		<p className="[ section__subtitle ]">I have done the above at the following agencies:</p>
+    		<h2 className="[ section__heading ]">Where Ive been.</h2>
     	</header>
 
     	<div className="section__body  grid">
+
+            <p className="[ section__subtitle ]">I have done the above at the following agencies:</p>
+
     		<JobPanel />
     		<JobPanel />
     		<JobPanel />
     		<JobPanel />
+            
     	</div>
 
     </section>

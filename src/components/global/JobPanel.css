@@ -6,6 +6,7 @@
 		display: block;
 		width: 105%;
 		height: 100%;
+		background: #fff;
 		background: var(--color-white);
 		position: absolute;
 		top: 0;
@@ -22,6 +23,7 @@
 	}
 
 	.card:hover .card__inner * {
+		color: #fff;
 		color: var(--color-white);
 	}
 
@@ -43,7 +45,9 @@
 	.card__inner {
 		min-height: 240px;
 		width: 100%;
-		border: 1px solid var(--color-white);
+		color: #fff;
+		color: var(--color-white);
+		border: 1px solid currentColor;
 		margin-bottom: 18px;
 		position: relative;
 		display: flex;
@@ -53,7 +57,6 @@
 		justify-content: center;
 		align-items: center;
 		background: transparent;
-		color: var(--color-white);
 		transition: all 250ms ease-in-out;
 	}
 	@media (min-width: 768px) {
@@ -75,6 +78,7 @@
     		height: auto;
 		}
 			.card__logo svg {
+				fill: #fff;
 				fill: var(--color-white);
 			}
 

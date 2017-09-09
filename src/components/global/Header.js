@@ -8,7 +8,7 @@ import MainNavigation from '../navigation/MainNavigation';
 const Header = () => {
     return (
       <header className="[ site-header ]  grid" role="header">
-      	<a className="[ site-logo ]" href="#"><span>d</span><span>c</span><span>j</span></a>
+      	<h1><a className="[ site-logo ]" href="#"><span>D</span><span>C</span><span>J</span></a></h1>
       </header>
     );
 }
