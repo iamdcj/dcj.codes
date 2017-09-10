@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './JobPanel.css';
+import styles from '../../assets/styles/JobPanel.css';
 
 
 const JobPanel = () => {

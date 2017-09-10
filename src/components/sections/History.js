@@ -2,7 +2,7 @@ import React from 'react';
 
 import JobPanel from '../global/JobPanel';
 
-import styles from './History.css';
+import styles from '../../assets/styles/History.css';
 
 const History = () => {
     return (

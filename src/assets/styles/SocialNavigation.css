@@ -1,10 +1,12 @@
 .navigation--social ul {
+	display: flex;
 	text-align: center;
+	justify-content: flex-end;
+	flex-wrap: wrap;
 }
 
 .navigation--social li {
 	display: block;
-	float: left;
 	width: 50%;
 	padding: var(--vr) 0 calc(var(--vr)*2) 0;
 }

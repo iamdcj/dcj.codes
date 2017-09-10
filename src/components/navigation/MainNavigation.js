@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './MainNavigation.css';
+import styles from '../../assets/styles/MainNavigation.css';
 
 const MainNavigation = () => {
     return (

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import resetStyles from './Reset.css';
-import grid from './Grid.css';
-import globalStyles from './App.css';
+
+
+import globalStyles from './assets/styles/App.css';
 
 
 // Globals

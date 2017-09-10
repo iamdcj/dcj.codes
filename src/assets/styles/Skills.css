@@ -5,11 +5,13 @@
 }
 
 	.list-block {
+		text-align: center;
 		padding: 0 20px;
 		margin-bottom: 24px;
 	}
 	@media (min-width: 768px) {
 		.list-block {
+			text-align: left;
 			min-width: 200px;
 		}
 	}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './Skills.css';
+import styles from '../../assets/styles/Skills.css';
 
 const Skills = () => {
     return (
@@ -10,7 +10,9 @@ const Skills = () => {
 
     			<h2 className="[ section__heading ]">Skills</h2>
     				
-    			<p className="[ section__subtitle ]">Here is what I do know, what I want to know,<br /> and what I (probably) never will know:</p>
+    			<div className="[ section__subtitle ]">
+    				<p>Here is what I do know, what I want to know,<br /> and what I (probably) never will know:</p>
+    			</div>
 
     		</header>
 
@@ -29,7 +31,6 @@ const Skills = () => {
                 <div className="[ list-block ]  grid__item  phab--one-third">
                     <h5>Improving</h5>                    
                     <ul>
-                        <li><abbr title="Cascading Style Sheets">CSS</abbr>[4]</li>
                         <li><abbr title="ECMAScript">ES</abbr>.Next (ES6 onwards)</li>
                         <li>ReactJS (and Redux)</li>
                         <li>Webpack</li>
@@ -48,7 +49,7 @@ const Skills = () => {
     		</div>
 
     		<div className="section__closing">
-                <p>I am currently doing all of the above over at <a href="http://www.building-blocks.com" target="blank" className="btn ">Building Blocks</a>.</p>
+                <p>I am currently doing all of the above over at <a href="http://www.building-blocks.com" target="blank">Building Blocks</a>.</p>
     		</div>
 
    		</section>

@@ -1,11 +1,11 @@
 .site-footer {
 	display: flex;
-	padding: 20px 60px;
+	padding: calc(6px * 3) 30px;
 	position: relative;
-	background: #023fa3;
-	background: var(--color-d);
+	background:  rgb(230, 83, 46);
 	align-items: center;
 }
+
 
 .copyright {
 	text-align: center;
@@ -21,3 +21,6 @@
 	}
 }
 
+.logo--small {
+	width: 30px;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './Introduction.css';
+import styles from '../../assets/styles/Introduction.css';
 
 const Introduction = () => {
     return (
@@ -10,12 +10,11 @@ const Introduction = () => {
 
     			<h2 className="[ section__heading ]">About</h2>
 
+                <div className="[ section__subtitle ]">
+                    <p>I have over 5 years professional experience building responsive web application <abbr title="User Interfaces">UIs</abbr> for companies, charities and <abbr title="Non-govermental organisations">NGOs</abbr> of all sizes.</p>
+                </div>
+
     		</header>
-
-            <div className="[ section__body ]">
-                <p>I have over 5 years professional experience building responsive web application <abbr title="User Interfaces">UIs</abbr> for companies, charities and <abbr title="Non-govermental organisations">NGOs</abbr> of all sizes.</p>
-            </div>
-
 
    		</section>
     );
