@@ -5,7 +5,7 @@ import styles from '../../assets/styles/SocialNavigation.css';
 const SocialNavigation = () => {
     return (
 
-      	<nav className="[ navigation  navigation--social ]  grid__item  two-thirds  tab--one-third">
+      	<nav className="[ navigation  navigation--social ]">
       		<h3 className="navigation__title">Social Navigation</h3>
       		<ul>
       			<li><a href="https://github.com/iamDCJ/" target="_blank">GitHub</a></li>

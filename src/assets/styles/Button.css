@@ -1,0 +1,58 @@
+.btn {
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: 1px solid;
+}
+
+.btn:visited {
+	color: currentColor;
+}
+
+.btn:hover {
+	color: currentColor;
+}
+
+.btn--style-a {
+	color: #000;
+	color: var(--color-black);
+	border-bottom: 1px solid currentColor;
+	padding: 0 12px calc(var(--vr)/2) 0;
+	font: 200 12px/18px var(--font-fam-b);
+}
+
+.btn--style-b {
+	padding: 12px 20px;
+	font-size: var(--font-size-small);
+	color: #fff;
+	color: var(--color-white);
+	background: rgb(230, 83, 46);
+	border: none;
+	font-family: var(--font-fam-light);
+}
+
+.btn--style-c {
+	padding: 18px 20px;
+	font-size: 18px;
+	color: var(--color-black);
+	border: 1px solid  orange;
+	font-family: var(--font-fam-light);
+	min-width: 200px;
+	text-align: center;
+}
+
+.btn--style-c:hover {
+	color: var(--color-black);
+	border: 1px solid  rgb(0, 0, 0);
+	background: rgb(0, 0, 0);
+}
+
+@media (min-width: 768px) {
+	.btn {
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	.btn--style-b {
+		font-size: var(--font-size-a);
+	}
+}

@@ -1,26 +1,33 @@
 .site-footer {
 	display: flex;
-	padding: calc(6px * 3) 30px;
+	padding: 0 20px 30px;
 	position: relative;
-	background:  rgb(230, 83, 46);
 	align-items: center;
+	background: #fff;
+	text-align: center;
 }
+@media (min-width: 768px) {
+	.site-footer {
+		padding: 0 20px 90px;
+	}
+}
+
+		.site-footer .section__header {
+			width: 100%;
+			margin-bottom: 18px;
+		}
 
 
 .copyright {
 	text-align: center;
-	color: #fff;
-	color: var(--color-white);
+	color: #000;
+	color: var(--color-brand);
 }
 
 
 @media (min-width: 768px) {
 	.copyright { 
-		text-align: left;
+		font-size: 18px;
 		font-family: var(--font-fam-thin);
 	}
-}
-
-.logo--small {
-	width: 30px;
 }

@@ -8,10 +8,70 @@
 
 
 .section--introduction {
-	padding-top: 30px;
+	margin: 0 auto 0px;
+	padding: 60px 0 40px 0;
+	background: rgb(21, 21, 21);
+	width: 90%;
+	transform: translateY(-60px);
+	color: #fff;
 }
+	
+	.section--introduction  .section__header {
+		margin-bottom: 12px;
+	}
+
+	.section--introduction  .section__header  .section__heading {
+		position: relative;	
+		margin-bottom: 18px;
+		font: 800 18px/30px var(--font-fam-strong);
+	}
+
 @media (min-width: 768px) {
 	.section--introduction {
-		padding-top: 180px;
+		margin: 0 auto;
+		margin-bottom: 140px;
+		padding: 240px 0 192px 0;
+		width: 85%;
+		transform: translateY(-80px);
+	}
+
+	.section--introduction  .section__header {
+		width: 85%;
+	}
+
+	.section--introduction  .section__header  .section__heading {
+		font: 800 60px/72px var(--font-fam-strong);
+	}
+}
+
+.section--introduction:before {
+	content: "";
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 30px;
+	background: #fff;
+	width: 1px; 
+}
+
+.section--introduction:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 30px;
+	background: #000;
+	width: 1px; 
+}
+@media (min-width: 768px) {
+	.section--introduction:before {
+		height: 60px;
+	}
+	.section--introduction:after {
+		height: 60px;
 	}
 }

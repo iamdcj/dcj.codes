@@ -6,8 +6,8 @@ import globalStyles from './assets/styles/App.css';
 
 
 // Globals
-import Header from './components/global/Header';
-import Footer from './components/global/Footer';
+import Header from './components/global/Header.jsx';
+import Footer from './components/global/Footer.jsx';
 
 // Layouts
 import Default from './layouts/Default';

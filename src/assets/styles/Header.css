@@ -23,14 +23,11 @@
 	top: 18px;
 	left: 10px;
 	z-index: 1;
-	letter-spacing: 1px;
 	color: #fff;
 	color: var(--color-white);
 	float: left;
 	text-decoration: none;
-	font: 200 var(--font-size-b)/var(--font-size-b) var(--font-fam-thin);
-	width: 30px;
-	text-transform: lowercase;
+	font: 200 18px/18px var(--font-fam-thin);
 	border: none;
 }
 @media (min-width: 768px) {
@@ -38,6 +35,7 @@
 		width: 50px;
 		top: 30px;
 		left: 20px;
+		font: 200 30px/30px var(--font-fam-thin);
 	}
 }
 

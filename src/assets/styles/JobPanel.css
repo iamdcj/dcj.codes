@@ -1,13 +1,35 @@
 .card {
 	position: relative;
+	background: #000;
 }	
+
+.card:nth-of-type(1) {
+	background: rgb(144, 48, 43);
+}
+
+.card:nth-of-type(2) {
+	background: rgb(202, 195, 116);
+}
+
+.card:nth-of-type(3) {
+	background: rgb(233, 120, 94);
+}
+
+.card:nth-of-type(4) {
+	background: rgb(158, 143, 143);	
+}
+
+.card:nth-of-type(1),
+.card:nth-of-type(3) {
+    transform: translateY(-25%);
+}
 	.card__inner:after {
 		content: '';
 		display: block;
 		width: 105%;
 		height: 100%;
-		background: #fff;
-		background: var(--color-white);
+		background: #000;
+		background: var(--color-black);
 		position: absolute;
 		top: 0;
 		left: 50%;
@@ -43,11 +65,9 @@
 
 	
 	.card__inner {
-		min-height: 240px;
 		width: 100%;
 		color: #fff;
 		color: var(--color-white);
-		border: 1px solid currentColor;
 		margin-bottom: 18px;
 		position: relative;
 		display: flex;
@@ -61,7 +81,7 @@
 	}
 	@media (min-width: 768px) {
 		.card__inner {
-			min-height: 360px;
+			min-height: 420px;
 			margin-bottom: 0;
 		}
 	}

@@ -1,10 +1,9 @@
 import React from 'react';
 
-import Masthead from '../components/sections/Masthead';
-import Introduction from '../components/sections/Introduction';
-import Approach from '../components/sections/Approach';
-import History from '../components/sections/History';
-import Skills from '../components/sections/Skills';
+import Masthead from '../components/sections/Masthead.jsx';
+import Introduction from '../components/sections/Introduction.jsx';
+import Approach from '../components/sections/Approach.jsx';
+import History from '../components/sections/History.jsx';
 
 
 import logo  from '../assets/media/logo-orange.svg';
@@ -15,11 +14,10 @@ const Home = () => {
 	    	<Masthead />
 	    	<div className="inner-wrapper">
 	    		<div className="inner-action">
-	    			<a className="[ site-logo ]" href="#"><img src={logo} /><span>David Christian Jones</span></a>
+	    			<a className="[ site-logo ]" href="#">dcj</a>
 	    		</div>
 	    	<Introduction />	    	
-	    	<Approach />
-	    	<Skills />
+	    	<Approach /> 	
 	    	</div>
 	    </div>
     );
