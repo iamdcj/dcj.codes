@@ -1,15 +1,18 @@
+@import url("Reset.css");
+@import url("Grid.css");
+@import url("../components/Button.css");
+
 :root {
 	height: 100%;
 	overflow-y: auto;
 
-
-    --color-d: #000;
-    --color-white: #fff;
-    --color-black: #000;
-
+    --color-white: rgb(255, 255, 255);
+    --color-black: #151515;
+    --brand-color-a: rgb(230, 83, 46);
+		--brand-color-b: var(--color-black);
+		--brand-color-c: #6ae368;
 
     --vr: 6px;
-
 
     --font-size-small: 14px; 
     --font-size-a: calc(var(--vr)*3); 
@@ -17,17 +20,13 @@
     --font-size-c: calc(var(--vr)*7); 
     --font-size-d: calc(var(--vr)*9); 
 
-
     --font-fam-thin: "HelveticaNeue-Thin", "Helvetica Neue Thin", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     --font-fam-light: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     --font-fam-medium: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     --font-fam-strong: "HelveticaNeue-Bold", "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 
-
-    --font-fam-b: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    --font-fam-b: var(--font-fam-light);
 }	
-
-
 
 * {
     box-sizing: border-box;
@@ -38,10 +37,8 @@ body {
 	font-family: var(--font-fam-medium);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	color: #023fa3;
-	color: var(--color-d);
-	background-color: #fff;
-	background-color: var(--color-white);
+	color: #151515;
+	color: var(--color-black);
 }
 
 h5 {
@@ -77,7 +74,6 @@ abbr {
 }
 
 .site-main {
-	background: #fff;
 	text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 	max-width: 100%;
@@ -117,7 +113,14 @@ a {
 
 a:visited,
 a:hover {
-	color: rgba(0,0,0, 0.9);
+	color: rgb(230, 83, 46);
+	color: var(--brand-color-a);
+	border-color: currentColor;
+}
+
+a:visited {
+	color: rgb(106, 227, 104);
+	color: var(--brand-color-c);
 	border-color: currentColor;
 }
 
@@ -133,7 +136,6 @@ li {
 .inner-wrapper {
 	position: relative;
 	height: 100%;
-	background: #fff;
 }
 
 .inner-action {
@@ -154,4 +156,51 @@ li {
 .inner-action .site-logo:hover,
 .inner-action .site-logo:visited {
 	color: rgb(230, 83, 46);
+}
+
+
+.site-logo {
+	position: fixed;
+	top: 18px;
+	left: 10px;
+	z-index: 1;
+	color: #fff;
+	color: var(--color-white);
+	float: left;
+	text-decoration: none;
+	font: 200 18px/18px var(--font-fam-thin);
+	border: none;
+}
+@media (min-width: 768px) {
+	.site-logo {
+		width: 50px;
+		top: 30px;
+		left: 20px;
+		font: 200 30px/30px var(--font-fam-thin);
+	}
+}
+
+.site-logo a {
+	border: none;
+}
+
+.site-logo a:visited,
+.site-logo a:hover {
+	color: #000;
+	color: var(--color-black);
+	border-color: currentColor;
+}
+
+.site-logo img {
+	width: 100%;
+}
+
+.site-logo:hover,
+.site-logo:visited {
+	color: #fff;
+}
+
+.site-logo--footer {
+	display: inline-block;
+	width: 25px;
 }

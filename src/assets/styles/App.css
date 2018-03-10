@@ -1,5 +1,1 @@
-@import url("Reset.css");
-@import url("Global.css");
-@import url("Grid.css");
-@import url("Button.css");
-@import url("Section.css");
+@import url("global/Global.css");

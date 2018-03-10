@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from '../../assets/styles/Masthead.css';
+import styles from '../../assets/styles/components/Masthead.css';
 
 import SocialNavigation from '../navigation/SocialNavigation';
 
@@ -13,17 +13,14 @@ const Masthead = () => {
     return (
    		<section className="[ masthead ]  grid">
 
-   			<div className="masthead__inner  grid__item desk--three-quarters">
+   			<div className="[ masthead__inner ]  grid__item desk--three-quarters">
+
 	    		<h2 className="[ masthead__title ]">Hello</h2>
 
 	    		<p className="[ masthead__subtitle ]">I am David Christian Jones, <br /> a modern front&ndash;end web developer <br />based in the North of England.</p>
 	    		
     		</div>
 
-    		<picture className="masthead__bg">
-    			<source media="(min-width: 768px)" srcSet={background}/>
-				  <img srcSet={backgroundSmall} src={background} alt="Slide Image" />
-			</picture>
    		</section>
     );
 }

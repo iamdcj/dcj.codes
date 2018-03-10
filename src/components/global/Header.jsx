@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from '../../assets/styles/Header.css';
+import styles from '../../assets/styles/components/Header.css';
 
 import MainNavigation from '../navigation/MainNavigation.jsx';
 

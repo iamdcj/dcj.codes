@@ -8,12 +8,13 @@
 
 
 .section--introduction {
-	margin: 0 auto 0px;
+	margin: 0 auto 142px;
 	padding: 60px 0 40px 0;
-	background: rgb(21, 21, 21);
+	background: #151515;
+	background: var(--brand-color-b);
 	width: 90%;
-	transform: translateY(-60px);
 	color: #fff;
+	// transform: translateY(-60px);
 }
 	
 	.section--introduction  .section__header {
@@ -28,11 +29,10 @@
 
 @media (min-width: 768px) {
 	.section--introduction {
-		margin: 0 auto;
-		margin-bottom: 140px;
-		padding: 240px 0 192px 0;
 		width: 85%;
-		transform: translateY(-80px);
+		margin: 0 auto calc(142px * 2);
+		padding: 240px 0 192px 0;
+		// transform: translateY(-80px);
 	}
 
 	.section--introduction  .section__header {
@@ -53,6 +53,7 @@
 	transform: translateX(-50%);
 	height: 30px;
 	background: #fff;
+	background: var(--color-white);
 	width: 1px; 
 }
 
@@ -65,12 +66,11 @@
 	transform: translateX(-50%);
 	height: 30px;
 	background: #000;
+	background: var(--color-black);
 	width: 1px; 
 }
 @media (min-width: 768px) {
-	.section--introduction:before {
-		height: 60px;
-	}
+	.section--introduction:before,
 	.section--introduction:after {
 		height: 60px;
 	}

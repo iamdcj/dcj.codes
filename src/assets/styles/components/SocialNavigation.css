@@ -9,6 +9,7 @@
 .navigation--social li {
 	display: block;
 	padding: var(--vr) 0 calc(var(--vr)*2) 0;
+	margin: 0 5px;
 }
 @media (min-width: 768px) {
   	.navigation--social li {
@@ -33,5 +34,6 @@
 }
 
 .navigation--social li a:hover {
-	color: currentColor;
+	color: #ff5722;
+	color: var(--brand-color-a);
 }
