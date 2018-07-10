@@ -6,13 +6,9 @@ import Introduction from '../components/sections/Introduction.jsx';
 import Approach from '../components/sections/Approach.jsx';
 import History from '../components/sections/History.jsx';
 
-
 import logo  from '../assets/media/logo-orange.svg';
 
-
-
 const Home = (props) => {
-	console.log(props);
 
     return (
     	<div className="[ layout  layout--home ]">

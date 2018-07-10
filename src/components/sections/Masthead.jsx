@@ -2,13 +2,6 @@ import React from 'react';
 
 import styles from '../../assets/styles/components/Masthead.css';
 
-import SocialNavigation from '../navigation/SocialNavigation';
-
-import backgroundSmall  from '../../assets/media/bg-mob.jpg';
-import background  from '../../assets/media/bg.jpg';
-
-console.log(background);
-
 const Masthead = () => {
     return (
    		<section className="[ masthead ]  grid">
@@ -17,8 +10,10 @@ const Masthead = () => {
 
 	    		<h2 className="[ masthead__title ]">Hello</h2>
 
-	    		<p className="[ masthead__subtitle ]">I am David Christian Jones, <br /> a modern front&ndash;end web developer <br />based in the North of England.</p>
-	    		
+	    		<div className="[ masthead__subtitle ]">
+						<p>I am David Christian Jones, <br /> a front&ndash;end web developer <br />based in the Boston, Massachusetts.</p>
+						<p><a href="mailto:david@dcj.codes" target="blank" className="btn  btn--style-b">Get in touch</a></p>
+	    		</div>
     		</div>
 
    		</section>
