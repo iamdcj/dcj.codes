@@ -265,7 +265,8 @@
       #root .grid {
         display: grid;
         grid-template-columns: repeat(var(--grid-col-number), [col] 1fr);
-        --grid-col-number: 12
+        --grid-col-number: 12;
+        width: 100%
       }
 
       .grid__item {
@@ -899,7 +900,7 @@
 
     .masthead__inner {
       position: relative;
-      padding: 78px 30px 20px;
+      padding: 78px 12.5% 20px;
       z-index: 2
     }
 
@@ -922,10 +923,9 @@
       }
     }
 
-    .masthead__subtitle {
+    .masthead__subtitle p {
       clear: left;
-      margin-bottom: calc(var(--vr)*6);
-      font: 200 16px/22px var(--font-fam-thin);
+      font: 200 24px/30px var(--font-fam-thin);
       padding-left: 5px;
       color: var(--brand-color-d)
     }
@@ -1010,6 +1010,9 @@
 
     .section--introduction {
       margin: 0 auto 142px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       padding: 60px 0 40px;
       background-color: #e13206;
       background-color: var(--brand-color-a);
@@ -1033,7 +1036,7 @@
       .section--introduction {
         width: 85%;
         margin: 0 auto 284px;
-        padding: 120px 0 102px;
+        min-height: 50vh;
       }
 
       .section--introduction .section__header {
@@ -1047,9 +1050,8 @@
 
     @media (min-width:1200px) {
       .section--introduction {
-        width: 85%;
-        margin: 0 auto 284px;
-        padding: 240px 0 192px
+        min-height: 75vh;
+        max-height: 450px;
       }
 
       .section--introduction .section__header {
@@ -1057,7 +1059,7 @@
       }
 
       .section--introduction .section__header .section__heading {
-        font: 800 60px/72px var(--font-fam-strong);
+        font: 800 56px/66px var(--font-fam-strong);
       }
     }
 
@@ -1288,16 +1290,16 @@
   <div class="[ site-wrapper ]">
     <header class="[ site-header ] grid">
       <h1 class="visually--hidden">David Christian Jones, User Interface Engineer.</h1><a class="[ site-logo ]"
-        href="#">dcj</a>
+      href="#">dcj</a>
     </header>
     <main class="[ site-main ]" role="main">
       <div class="[ layout layout--home ]">
         <section class="[ masthead ] grid">
-          <div class="[ masthead__inner ] grid__item desk--three-quarters">
+          <div class="[ masthead__inner ] grid__item">
             <h2 class="visually--hidden">Introduction</h2>
             <h3 class="[ masthead__title ]">Hi</h3>
             <div class="[ masthead__subtitle ]">
-              <p>I am David Christian Jones, <br>a User Interface Engineer <br>based in Boston, USA.</p>
+              <p>I am David Christian Jones,<br/> a User Interface Engineer<br/> based in Boston, USA.</p>
               <p><a href="mailto:david@dcj.codes" target="blank" class="btn btn--style-b">Get in touch</a></p>
             </div>
           </div>
@@ -1307,7 +1309,7 @@
           <section class="[ section section--introduction ]">
             <header class="[ section__header ]">
               <h2 class="visually--hidden">Overview</h2>
-              <P class="[ section__heading ]">I specialise in building responsive web application User Interfaces.</p>
+              <P class="[ section__heading ]">I specialise in building responsive<br /> web application User Interfaces.</p>
             </header>
           </section>
           <section class="[ section section--approach ]">
