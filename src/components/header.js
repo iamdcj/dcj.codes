@@ -53,9 +53,9 @@ const Header = () => {
           )}
           <nav>
             <ul class="navigation">
-              <li>
+              {/* <li>
                 <Link to="/resume">Resume</Link>
-              </li>
+              </li> */}
               <li>
                 <a href={`https://twitter.com/${social?.github || ``}`}>
                   Github
