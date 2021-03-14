@@ -2,8 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `Blog`,
     author: {
-      name: `David Christian Jones`,
-      summary: "a Software Engineer with over eight years experience <br /> developing complex web applications.",
+      name: `David Christian Jones.`,
+      summary:
+        "Software Engineer with over eight years worth of experience developing modular, scalable, performant web applications.",
     },
     description: `David Christian Jones Blog`,
     siteUrl: `https://dcj.codes`,
@@ -75,15 +76,15 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.nodes.map(node => {
+              return allMarkdownRemark.nodes.map((node) => {
                 return Object.assign({}, node.frontmatter, {
                   description: node.excerpt,
                   date: node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + node.fields.slug,
                   guid: site.siteMetadata.siteUrl + node.fields.slug,
                   custom_elements: [{ "content:encoded": node.html }],
-                })
-              })
+                });
+              });
             },
             query: `
               {
@@ -127,4 +128,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};

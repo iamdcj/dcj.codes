@@ -9,9 +9,8 @@
   --maxWidth-xl: 36rem;
   --maxWidth-2xl: 42rem;
   --maxWidth-3xl: 48rem;
-  --maxWidth-4xl: 48rem;
   --maxWidth-full: "100%";
-  --maxWidth-wrapper: var(--maxWidth-4xl);
+  --maxWidth-wrapper: var(--maxWidth-3xl);
   --spacing-px: "1px";
   --spacing-0: 0;
   --spacing-1: 0.25rem;
@@ -187,9 +186,6 @@ li > p {
   margin-bottom: calc(var(--spacing-8) / 2);
 }
 
-li *:last-child {
-  margin-bottom: var(--spacing-0);
-}
 
 li > ul {
   margin-left: var(--spacing-8);
@@ -198,7 +194,7 @@ li > ul {
 
 blockquote {
   color: var(--color-text-light);
-  margin-left: calc(-1 * var(--spacing-6));
+  margin-left: 0;
   margin-right: var(--spacing-8);
   padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6);
   border-left: var(--spacing-1) solid var(--color-primary);
@@ -254,8 +250,28 @@ body,
 
 .global-wrapper {
   margin: var(--spacing-0) auto;
-  max-width: var(--maxWidth-wrapper);
   padding: var(--spacing-10) var(--spacing-5);
+  width: 100%;
+  max-width: var(--maxWidth-wrapper);
+}
+
+header {
+  max-width: var(--maxWidth-xl);
+  width: 100%;
+  margin-bottom: var(--spacing-3);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+ol {
+  width: calc(100% - 70px);
+  margin: 0;
 }
 
 .global-wrapper[data-is-root-path="true"] .bio {
@@ -272,8 +288,7 @@ body,
 }
 
 .post-list-item {
-  margin-bottom: var(--spacing-8);
-  margin-top: var(--spacing-8);
+  margin-bottom: var(--spacing-10);
 }
 
 .post-list-item p {
@@ -301,20 +316,40 @@ body,
 .bio {
   display: flex;
   margin-bottom: var(--spacing-10);
+  width: 100%;
 }
 
 .bio p {
   display: block;
   margin-bottom: var(--spacing-3);
-  padding-bottom: var(--spacing-3);
-  border-bottom: 1px solid #d6d4d4;
+  font-size: var(--fontSize-1);
+}
+
+.bio span {
+  font-size: var(--fontSize-0);
 }
 
 .bio-avatar {
   margin-right: var(--spacing-4);
   margin-bottom: var(--spacing-0);
   min-width: 50px;
+}
+
+.bio-avatar a {
+  font-size: 12px;
+}
+
+.bio__main {
+  width: 100%;
+  border-bottom: 1px solid #d6d4d4;
+}
+
+.bio-avatar img {
   border-radius: 100%;
+}
+
+.blog-post {
+  width: 100%;
 }
 
 .blog-post header h1 {
@@ -339,7 +374,6 @@ body,
 @media (max-width: 42rem) {
   blockquote {
     padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-4);
-    margin-left: var(--spacing-0);
   }
   ul,
   ol {
@@ -366,7 +400,16 @@ body,
   height: 70px;
 }
 
+.site-footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--maxWidth-wrapper);
+  width: 100%;
+}
+
 .site-footer a,
+.site-footer li,
 .site-footer p {
   color: #fff;
   margin-bottom: 0;
