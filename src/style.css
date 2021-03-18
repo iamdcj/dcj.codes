@@ -344,7 +344,7 @@ ol {
   border-bottom: 1px solid #d6d4d4;
 }
 
-.bio-avatar img {
+.bio-avatar .gatsby-image-wrapper {
   border-radius: 100%;
 }
 
