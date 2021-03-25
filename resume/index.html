@@ -1,0 +1,726 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      abbr,
+      acronym,
+      address,
+      applet,
+      article,
+      aside,
+      audio,
+      b,
+      big,
+      blockquote,
+      body,
+      canvas,
+      caption,
+      center,
+      cite,
+      code,
+      dd,
+      del,
+      details,
+      dfn,
+      div,
+      dl,
+      dt,
+      em,
+      embed,
+      fieldset,
+      figcaption,
+      figure,
+      footer,
+      form,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      header,
+      hgroup,
+      html,
+      i,
+      iframe,
+      img,
+      ins,
+      kbd,
+      label,
+      legend,
+      li,
+      mark,
+      menu,
+      nav,
+      object,
+      ol,
+      output,
+      p,
+      pre,
+      q,
+      ruby,
+      s,
+      samp,
+      section,
+      small,
+      span,
+      strike,
+      strong,
+      sub,
+      summary,
+      sup,
+      table,
+      tbody,
+      td,
+      tfoot,
+      th,
+      thead,
+      time,
+      tr,
+      tt,
+      u,
+      ul,
+      var,
+      video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+      article,
+      aside,
+      details,
+      figcaption,
+      figure,
+      footer,
+      header,
+      hgroup,
+      menu,
+      nav,
+      section {
+        display: block;
+      }
+      body {
+        line-height: 1;
+      }
+      ol,
+      ul {
+        list-style: none;
+      }
+      blockquote,
+      q {
+        quotes: none;
+      }
+      blockquote:after,
+      blockquote:before,
+      q:after,
+      q:before {
+        content: "";
+        content: none;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+      .visually--hidden {
+        margin: 0;
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
+      :focus:not(:focus-visible) {
+        outline: 0;
+      }
+      .visually--hidden:active,
+      .visually--hidden:focus {
+        clip: auto;
+        height: auto;
+        margin: 0;
+        overflow: visible;
+        position: static;
+        width: auto;
+      }
+      :root {
+        background: #fff;
+        height: 100%;
+        overflow-y: auto;
+        --color-white: #fff;
+        --color-black: #151515;
+        --vr: 6px;
+        --font-size-small: 14px;
+        --font-size-a: calc(var(--vr) * 3);
+        --font-size-b: calc(var(--vr) * 5);
+        --font-size-c: calc(var(--vr) * 7);
+        --font-size-d: calc(var(--vr) * 9);
+        --font-fam-thin: "HelveticaNeue-Thin", "Helvetica Neue Thin",
+          "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        --font-fam-light: "HelveticaNeue-Light", "Helvetica Neue Light",
+          "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        --font-fam-medium: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
+          "Lucida Grande", sans-serif;
+        --font-fam-strong: "HelveticaNeue-Bold", "Helvetica Neue Bold",
+          "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        --font-fam-b: var(--font-fam-light);
+        --font-fam-c: "Georgia";
+        --brand-color-a: #e13206;
+        --brand-color-b: var(--color-black);
+        --brand-color-c: #e13206;
+        --brand-color-d: #232323;
+        --brand-color-e: #a9a9a9;
+      }
+
+      * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: HelveticaNeue, Helvetica Neue, Helvetica, Arial,
+          Lucida Grande, sans-serif;
+        font-family: var(--font-fam-medium);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font: 200 16px/24px var(--font-fam-light);
+        color: var(--brand-color-d);
+      }
+
+      strong,
+      h2,
+      h3 {
+        font-weight: 600;
+      }
+
+      aside,
+      time {
+        text-align: right;
+      }
+
+      h2 {
+        margin-bottom: 12px;
+        padding-bottom: 12px;
+      }
+
+      .list--inline {
+        display: flex;
+      }
+
+      .list--inline li {
+        margin-right: 5px;
+      }
+
+      hr {
+        display: inline-block;
+        width: 30px;
+        border-color: #023fa3;
+        border-color: var(--color-d);
+        margin: 18px 0;
+      }
+
+      abbr {
+        text-decoration: none;
+      }
+
+      p {
+        margin-bottom: 12px;
+        line-height: 22px;
+      }
+
+      .site__main {
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        max-width: 100%;
+        overflow-x: hidden;
+      }
+
+      a {
+        display: inline-block;
+        margin-bottom: 6px;
+        -webkit-transition: all 0.25s ease-in-out;
+        -o-transition: all ease-in-out 0.25s;
+        transition: all 0.25s ease-in-out;
+        border-bottom: 1px solid currentColor;
+        color: #e13206;
+        color: var(--brand-color-a);
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 14px;
+      }
+
+      a:visited {
+        color: #e13206;
+      }
+      a:hover,
+      a:visited {
+        border-color: currentColor;
+      }
+      a:hover {
+        color: #e13206;
+        color: var(--brand-color-a);
+      }
+
+      .cntr {
+        text-align: center;
+      }
+      .site-logo {
+        position: fixed;
+        top: 18px;
+        right: 20px;
+        z-index: 1;
+        color: #e13206;
+        color: var(--brand-color-a);
+        pointer-events: auto;
+        text-decoration: none;
+        font: 200 18px/18px var(--font-fam-thin);
+        border: none;
+      }
+      @media (min-width: 768px) {
+        .site-logo {
+          width: 50px;
+          top: 30px;
+          right: 20px;
+          font: 200 30px/30px var(--font-fam-thin);
+        }
+      }
+      .site-logo a {
+        border: none;
+      }
+      .site-logo a:hover,
+      .site-logo a:visited {
+        color: #a9a9a9;
+        color: var(--brand-color-e);
+      }
+      .site-logo:hover,
+      .site-logo:visited {
+        color: #e13206;
+        color: var(--brand-color-a);
+      }
+      .site-logo--footer {
+        display: inline-block;
+        width: 25px;
+      }
+
+      .back-to-top {
+        font-size: 14px;
+        font-family: var(--font-fam-thin);
+        position: absolute;
+        padding-right: 40px;
+        right: 0;
+        bottom: 20px;
+        text-align: left;
+      }
+      .back-to-top,
+      .back-to-top:hover {
+        color: #e13206;
+        color: var(--brand-color-a);
+      }
+      .back-to-top:hover,
+      .back-to-top:visited {
+        border-color: currentColor;
+      }
+      .back-to-top:visited {
+        color: #e13206;
+        color: var(--brand-color-a);
+      }
+      @media (min-width: 768px) {
+        .back-to-top {
+          font-size: 16px;
+        }
+      }
+
+      .site__main {
+        display: flex;
+        justify-content: center;
+        padding: 60px 20px;
+      }
+
+      .site__inner {
+        max-width: 900px;
+      }
+
+      .ls--none li {
+        margin-left: 0;
+        list-style: none;
+      }
+
+      .grid {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: 180px auto;
+        margin-bottom: 30px;
+      }
+
+      section li {
+        list-style-type: disc;
+        margin: 0 0 0 20px;
+      }
+
+      .section--education {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+      }
+
+      header div {
+        display: inline-grid;
+        grid-template-columns: repeat(3, auto);
+        gap: 5px;
+        margin-bottom: 6px;
+      }
+
+      header div p {
+        margin-bottom: 0;
+      }
+
+      address {
+        font-size: 14px;
+        margin-bottom: 18px;
+      }
+
+      ul {
+        margin-bottom: 18px;
+      }
+
+      h4 {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 12px;
+      }
+
+      h1 {
+        line-height: 22px;
+      }
+
+      h1 strong {
+        margin-bottom: 12px;
+      }
+
+      h2 {
+        font-size: 18px;
+        margin-bottom: 6px;
+      }
+
+      .no--margin {
+        margin-bottom: 0;
+      }
+
+      @media print {
+        .site__main {
+          display: flex;
+          justify-content: center;
+          padding: 0;
+        }
+
+        h2 {
+          margin-bottom: 0;
+          padding-bottom: 0;
+        }
+
+        .no--print {
+          display: none;
+        }
+
+        a {
+          border: none;
+        }
+
+        .grid {
+          margin-bottom: 18px;
+        }
+
+        * {
+          font-size: 10pt !important;
+          line-height: 12pt;
+        }
+
+        @page {
+          margin: 40pt 60pt 40pt 20pt;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="site__main" role="main">
+      <div class="site__inner">
+        <div class="site__content">
+          <section class="grid">
+            <aside>
+              <h1>
+                <strong>David Christian Jones</strong><br />
+                Senior Software Engineer
+              </h1>
+              <p>Boston <abbr title="Massachusetts">MA</abbr>, USA</p>
+
+              <ul class="ls--none">
+                <li><a href="tel:+1 (617) 838-0499">+1 (617) 838-0499</a></li>
+                <li><a href="mailto:david@dcj.codes">david@dcj.codes</a></li>
+                <li>
+                  <a
+                    href="https://github.com/iamdcj"
+                    rel="external noopener noreferrer"
+                    target="_blank"
+                    >github/iamdcj</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="no--print"
+                    href="https://www.linkedin.com/in/iamdcj/"
+                    rel="external noopener noreferrer"
+                    target="_blank"
+                    >Linkedin</a
+                  >
+                </li>
+              </ul>
+            </aside>
+            <div>
+              <p>
+                Ever-evolving software engineer with over eight years of
+                commercial experience delivering scalable, accessible, and
+                performant web-based solutions for some of the largest
+                companies, charities, and nonprofit organizations in the world.
+              </p>
+              <p>
+                Well-versed in the core web technologies
+                <abbr title="HyperText Markup Language">HTML</abbr>,
+                <abbr title="Cascading Style Sheets">CSS</abbr>, and JavaScript
+                - proficiency in these languages allow me to utilize frameworks, tooling, and
+                methodologies such as React, Vue, Babel, Webpack, and
+                <abbr title="Block Element Modifider">BEM</abbr>.
+              </p>
+            </div>
+          </section>
+
+          <section>
+            <div class="grid no--margin">
+              <aside>
+                <h2>Employment</h2>
+              </aside>
+            </div>
+            <div class="grid">
+              <aside>
+                <time>Dec 2015 - Present</time>
+              </aside>
+              <div>
+                <header>
+                  <div>
+                    <h3>DEPT</h3>
+                    |
+                    <p>Senior Software Engineer</p>
+                  </div>
+                  <address>
+                    87 Summer St, Boston MA 02110, USA / Bridgewater House,
+                    Manchester M1 6LT, UK
+                  </address>
+                </header>
+
+                <h4>Responsibilities</h4>
+                <ul>
+                  <li>
+                    <p>
+                      Engineering scalable, robust, and flexible client-side applications
+                      that work in harmony with the agency's proprietary
+                      back-end systems.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Defining coding standards and introducing modern technology,
+                      conventions, and methodologies into the organization's engineering workflow.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Mentoring members of the development team by providing
+                      in-house engineers with the support and guidance needed to
+                      improve their skillsets.
+                    </p>
+                  </li>
+                </ul>
+
+                <h4>Achievements</h4>
+                <ul>
+                  <!-- <li>
+                    <p>
+                      Collaborated with several engineers to build a web-based
+                      contact tracing toolkit for the PathCheck Foundation,
+                      providing tracers with the capabilities to determine if a
+                      subject may have come into contact with a COVID-19
+                      positive individual.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Part of an engineering team developing a complex set of
+                      user interface tools used by a select number of IndigoAg
+                      specialists tasked with optimizing agronomic machine
+                      geodata.
+                    </p>
+                  </li> -->
+                  <li>
+                    <p>
+                      Architected and engineered a sophisticated
+                      server-side-rendered JavaScript application built to power
+                      Omron Automation's online presence - the final product
+                      resulted in significant performance improvements, a much
+                      better bounce rate, and superior lead generation.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Developed and maintained a modular front-end framework
+                      for the largest sportswear manufacturer in Europe, Adidas
+                      AG. The application contained a suite of themeable user
+                      interface abstractions which were used to build thousands
+                      of digital marketing campaigns for some of the client's
+                      best-selling products.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Lead the frontend effort on a total rebuild of
+                      Blackboard's global digital space. The solution
+                      streamlined content generation; allowing them to better
+                      serve their audience by providing editors with
+                      the tools to easily compose pages, microsites, and blog
+                      entries.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="grid">
+              <time>Sep - Dec 2015</time>
+              <div>
+                <header>
+                  <div>
+                    <h3>e3creative</h3>
+                    |
+                    <p>Frontend Engineer</p>
+                  </div>
+                  <address>Bridgewater House, Manchester M1 6LT, UK</address>
+                </header>
+                <ul>
+                  <li>
+                    <p>
+                      Produced an Angular-driven single-page application for
+                      SRO Solutions - hydrated via a custom-built content
+                      management system.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="grid">
+              <time>July 2014 - Sep 2015</time>
+              <div>
+                <header>
+                  <div>
+                    <h3>Reason Digital</h3>
+                    |
+                    <p>Frontend Engineer</p>
+                  </div>
+                  <address>Lever St, Manchester M1 1DW, United Kingdom</address>
+                </header>
+                <ul>
+                  <li>
+                    <p>
+                      Delivered a multi-site application for the UK's largest
+                      food bank network, the Trussel Trust - providing over 1000
+                      regional foodbank locations with a content-manageable
+                      website.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Produced several content-managed microsites for one of the
+                      top education institutions in the United Kingdom, The
+                      University of Manchester.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="grid">
+              <time>July 2012 - June 2014</time>
+              <div>
+                <header>
+                  <div>
+                    <h3>Cube3</h3>
+                    |
+                    <p>Junior Software Engineer</p>
+                  </div>
+                  <address>High St, Manchester M4 1BD, United Kingdom</address>
+                </header>
+                <ul>
+                  <li>
+                    <p>
+                      Assisted with the development of the Revolution Bars
+                      online overhaul project - by utilizing a
+                      content-management platform the agency's flagship client
+                      was able to update their corporate website and easily
+                      curate campaign pages for any of their 50+ locations in
+                      the United Kingdom.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      Managed the delivery of hundreds of custom-built HTML
+                      marketing campaigns for the agency's local and national
+                      client base.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="grid no--margin">
+              <aside>
+                <h2>Education</h2>
+              </aside>
+            </div>
+            <div class="grid">
+              <time>Sep 2009 - July 2012</time>
+              <div>
+                <div>
+                  <h3>Interactive Digital Media, BSc</h3>
+                </div>
+                <p>University of Central Lancashire</p>
+                <ul>
+                  <li>Web Development</li>
+                  <li>User Experience Design</li>
+                  <li>Applied Graphics</li>
+                  <li>Video</li>
+                  <li>Audio</li>
+                  <li>Enterprise</li>
+                </ul>
+              </div>
+            </div>
+            <div class="grid">
+              <time>Sep 2008 - July 2009</time>
+              <div>
+                <h3>Computer Science & Engineering</h3>
+                <p>College of Manchester</p>
+                <ul>
+                  <li>Computer Science</li>
+                  <li>Mechanical Engineering</li>
+                  <li>Electrical Engineering</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
