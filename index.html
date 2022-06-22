@@ -686,14 +686,12 @@
         color: var(--color-white);
       }
 
-
       @media (min-width: 768px) {
         .masthead {
           color: var(--color-black);
         }
       }
 
-      
       @media (prefers-color-scheme: dark) {
         .masthead {
           color: var(--color-white);
@@ -714,7 +712,7 @@
 
       .masthead:after {
         content: "";
-        background: rgba(0, 0, 0, 0.85);
+        background: rgba(0, 0, 0, 0.75);
         position: absolute;
         top: 0;
         left: 0;
@@ -766,13 +764,14 @@
       }
       .masthead__subtitle p {
         clear: left;
-        font: 400 18px/24px var(--font-fam-thin);
+        font: 500 18px/24px var(--font-fam-thin);
         padding-left: 5px;
         color: inherit;
       }
 
       @media (min-width: 768px) {
         .masthead__subtitle p {
+          text-shadow: 0.2px 0.2px 0.2px var(--brand-color-a);
           font: 400 30px/42px var(--font-fam-thin);
           padding-left: 10px;
         }
@@ -923,9 +922,9 @@
         <div class="layout layout--home">
           <section class="grid masthead">
             <img
-              width="300"
-              height="300"
-              src="https://avatars.githubusercontent.com/u/2306064?v=4"
+              width="800"
+              height="800"
+              src="https://res.cloudinary.com/dcj-codes/image/upload/c_fill,q_60,r_0,w_375,h_620/v1655903816/2306064_1_xrzfsg.webp"
             />
             <div class="grid__item masthead__inner">
               <h2 class="visually--hidden">Introduction</h2>
@@ -933,7 +932,7 @@
                 <img
                   width="300"
                   height="300"
-                  src="https://avatars.githubusercontent.com/u/2306064?v=4"
+                  src="https://res.cloudinary.com/dcj-codes/image/upload/q_60,r_0,w_600/v1655903816/2306064_1_xrzfsg.webp"
                 />
                 <div>
                   <h3 class="masthead__title">Hi</h3>
