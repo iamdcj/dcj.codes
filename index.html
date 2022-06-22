@@ -229,13 +229,23 @@
         border: 1px solid;
         background: currentColor;
       }
+
       :root {
-        background-color: #1f2025;
+        background-color: #fff;
         height: 100%;
         overflow-y: auto;
         --color-white: #fff;
         --color-black: #151515;
       }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          background-color: #1f2025;
+          --color-white: #fff;
+          --color-black: #151515;
+        }
+      }
+
       * {
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
@@ -268,8 +278,15 @@
       p {
         font: 400 16px/24px var(--font-fam-thin);
         margin-bottom: 12px;
-        color: var(--color-white);
+        color: var(--color-black);
       }
+
+      @media (prefers-color-scheme: dark) {
+        p {
+          color: var(--color-white);
+        }
+      }
+
       @media (min-width: 768px) {
         p {
           font: 400 24px/36px var(--font-fam-thin);
@@ -352,14 +369,20 @@
         -o-transition: all ease-in-out 0.25s;
         transition: all 0.25s ease-in-out;
         border-bottom: 1px solid currentColor;
-        color: #fff;
-        color: var(--color-white);
+        color: "inherit";
         cursor: pointer;
         text-decoration: none;
+        color: var(--color-black);
       }
+
+      @media (prefers-color-scheme: dark) {
+        a {
+          color: var(--color-white);
+        }
+      }
+
       a:visited {
-        color: #a9a9a9;
-        color: var(--brand-color-e);
+        color: "inherit";
       }
       a:hover,
       a:visited {
@@ -427,6 +450,12 @@
         position: relative;
         margin-bottom: 18px;
         font: 800 36px/48px var(--font-fam-strong);
+        color: var(--color-black);
+      }
+      @media (prefers-color-scheme: dark) {
+        .section__heading {
+          color: var(--color-white);
+        }
       }
       @media (min-width: 768px) {
         .section__heading {
@@ -547,10 +576,16 @@
         position: relative;
         -ms-flex-align: center;
         align-items: center;
-        color: #fff;
-        color: var(--color-white);
         text-align: center;
+        color: var(--color-black);
       }
+
+      @media (prefers-color-scheme: dark) {
+        .site-footer {
+          color: var(--color-white);
+        }
+      }
+
       @media (min-width: 768px) {
         .site-footer {
           padding: 40px 20px 20px;
@@ -564,8 +599,13 @@
         font-size: 18px;
         font-family: var(--font-fam-thin);
         text-align: center;
-        color: #fff;
-        color: var(--color-white);
+        color: var(--color-black);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .copyright {
+          color: var(--color-white);
+        }
       }
       .back-to-top {
         font-size: 14px;
@@ -643,9 +683,29 @@
         -ms-flex-align: center;
         align-items: center;
         justify-items: center;
-        color: #fff;
         color: var(--color-white);
       }
+
+
+      @media (min-width: 768px) {
+        .masthead {
+          color: var(--color-black);
+        }
+      }
+
+      
+      @media (prefers-color-scheme: dark) {
+        .masthead {
+          color: var(--color-white);
+        }
+
+        @media (min-width: 768px) {
+          .masthead {
+            color: var(--color-white);
+          }
+        }
+      }
+
       @media (min-width: 1200px) {
         .masthead {
           height: 100vh;
@@ -697,6 +757,7 @@
       }
       .masthead__title {
         font: 800 84px/84px var(--font-fam-medium);
+        color: inherit;
       }
       @media (min-width: 768px) {
         .masthead__title {
@@ -707,8 +768,9 @@
         clear: left;
         font: 400 18px/24px var(--font-fam-thin);
         padding-left: 5px;
-        color: var(--color-white);
+        color: inherit;
       }
+
       @media (min-width: 768px) {
         .masthead__subtitle p {
           font: 400 30px/42px var(--font-fam-thin);
@@ -736,8 +798,14 @@
         background-color: #e13206;
         background-color: var(--brand-color-a);
         width: 90%;
-        color: #fff;
+        color: var(--color-black);
       }
+      @media (prefers-color-scheme: dark) {
+        .section--introduction {
+          color: var(--color-white);
+        }
+      }
+
       .section--introduction .section__header {
         margin-bottom: 12px;
       }
@@ -745,8 +813,13 @@
         position: relative;
         margin-bottom: 18px;
         font: 800 18px/30px var(--font-fam-strong);
-        color: #fff;
-        color: var(--color-white);
+        color: var(--color-black);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .section--introduction .section__header .section__heading {
+          color: var(--color-white);
+        }
       }
       @media (min-width: 768px) {
         .section--introduction {
@@ -866,9 +939,10 @@
                   <h3 class="masthead__title">Hi</h3>
                   <div class="masthead__subtitle">
                     <p>
-                      I am David Christian Jones,<br />a User Interface Engineer
-                      specializing<br />in developing responsive web
-                      applications.
+                      I am David Christian Jones,<br />an
+                      <abbr title="New York City">NYC</abbr> based User
+                      Interface Engineer<br />
+                      specializing in responsive web applications.
                     </p>
                     <p>
                       <a
