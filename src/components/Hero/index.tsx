@@ -21,13 +21,12 @@ export default function Hero() {
             <div className="masthead__subtitle">
               <p>
                 I'm David Christian Jones,
-                <br />A User Interface Engineer based in
-                <abbr title="New York City">NYC</abbr>.<br />
+                <br />A User Interface Engineer based in{" "}
+                <abbr title="New York City"> NYC</abbr>.<br />
               </p>
               <p>
-                I specialize in developing responsive web applications
-                <br />
-                using the latest client-side technologies.
+                I specialize in developing responsive web applications using the
+                latest client-side technologies.
               </p>
               <p>
                 <a

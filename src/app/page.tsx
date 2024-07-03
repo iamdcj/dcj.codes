@@ -18,7 +18,6 @@ export default function Home() {
           <Hero />
           <div className="inner-wrapper">
             <div className="inner-action">
-              <Logo />
             </div>
             <Introduction />
           </div>

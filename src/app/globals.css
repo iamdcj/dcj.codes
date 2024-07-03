@@ -733,7 +733,7 @@ li {
 }
 @media (min-width: 1200px) {
   .masthead__inner {
-    padding: 20px 20%;
+    padding: 20px 17.5%;
     width: 100%;
   }
 }

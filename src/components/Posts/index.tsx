@@ -1,4 +1,4 @@
-export default function Introduction() {
+export default function Posts() {
   return (
     <section className="section section--approach">
       <header className="section__header">
