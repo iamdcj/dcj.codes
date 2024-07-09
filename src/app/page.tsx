@@ -2,11 +2,12 @@ import Hero from "@/components/Hero";
 import Logo from "@/components/Logo";
 import Introduction from "@/components/Introduction";
 import Footer from "@/components/Footer";
+import Articles from "@/components/Articles";
 
 async function getPosts() {
   try {
     const res = await fetch("http://localhost:3001/api/blog");
-  
+
     if (!res.ok) {
       throw new Error(`Failed to fetch posts, received status ${res.status}`);
     }
@@ -36,7 +37,7 @@ export default async function Home() {
           <div className="inner-wrapper">
             <div className="inner-action"></div>
             <Introduction />
-            {posts.map((post: any) => post.title)}
+            {posts && posts.length > 0 && <Articles posts={posts} />}
           </div>
         </div>
       </main>
