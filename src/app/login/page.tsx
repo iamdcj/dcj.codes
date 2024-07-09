@@ -18,11 +18,28 @@ export default function Login() {
     });
   };
 
+  const handleSubmit  = async (event: SubmitEvent) => {
+    event.preventDefault();
+
+    try {
+        const res = await fetch('http://localhost:3001/api/authentication/login', {
+            method: "POST",
+            body: JSON.stringify(formData),
+            credentials: 'include'
+          });
+    
+        console.log(res);
+    } catch (error) {
+        console.error(error);
+    }
+    
+  }
+
   return (
     <main>
       <section>
         <h2>Admin Login</h2>
-        <form>
+        <form onSubmit={handleSubmit}>
           <div>
             <label htmlFor="username">Username</label>
             <input
