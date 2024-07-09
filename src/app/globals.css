@@ -101,8 +101,6 @@ samp,
 section,
 small,
 span,
-strike,
-strong,
 sub,
 summary,
 sup,
@@ -879,4 +877,8 @@ li {
     width: 340px;
     height: 340px;
   }
+}
+
+.ck p {
+  color: #000;
 }

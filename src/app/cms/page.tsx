@@ -1,14 +1,12 @@
-import Logo from "@/components/Logo";
+import Link from "next/link";
 
 export default function Home() {
-
   return (
-    <main>
-      <Logo isRelative />
-      <section>
-        Current Posts
-        
-      </section>
-    </main>
+    <section>
+      Current Posts <Link href="/cms/new">Create New Post +</Link>
+      {
+        // map over current posts
+      }
+    </section>
   );
 }

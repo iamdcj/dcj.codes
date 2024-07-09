@@ -1,12 +1,24 @@
-export default function Logo({ isRelative }: { isRelative?: boolean }) {
+import Link from "next/link";
+
+export default function Logo({
+  isRelative,
+  root = "/",
+}: {
+  isRelative?: boolean;
+  root?: string;
+}) {
   return (
-    <a
-      href="#"
+    <Link
+      href={root}
       className="site-logo"
-      style={{ position: isRelative ? "relative" : "absolute", top: 'auto', left: 'auto' }}
+      style={{
+        position: isRelative ? "relative" : "absolute",
+        top: "auto",
+        left: "auto",
+      }}
     >
       <span className="d">D</span> <span className="c">C</span>
       <span className="j">J</span>
-    </a>
+    </Link>
   );
 }

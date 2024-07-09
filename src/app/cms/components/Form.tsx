@@ -1,0 +1,43 @@
+"use client";
+
+import { SyntheticEvent, useState } from "react";
+import RichText from "../components/RichText";
+
+export default function ArticleForm() {
+  const [formData, setformData] = useState({
+    title: "",
+    content: "",
+  });
+
+  const handleChange = (event: SyntheticEvent) => {
+    const target = event.target as HTMLInputElement;
+
+    setformData({
+      ...formData,
+      [target?.name]: target?.value
+    });
+  };
+
+  const handleSubmit = async (event: SubmitEvent) => {
+    event.preventDefault();
+
+    try {
+      await fetch("http://localhost:3001/api/blog", {
+        method: "POST",
+        body: JSON.stringify(formData),
+        credentials: "include",
+      });
+
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <input type="text" name="title" id="title" onChange={handleChange} value={formData?.title} />
+      <RichText onChange={handleChange} value={formData?.content} />
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
