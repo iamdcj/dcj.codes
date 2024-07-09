@@ -5,6 +5,10 @@ export default function Home() {
   return (
     <main>
       <Logo isRelative />
+      <section>
+        Current Posts
+        
+      </section>
     </main>
   );
 }

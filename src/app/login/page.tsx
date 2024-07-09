@@ -1,8 +1,10 @@
 "use client";
 
+import { useRouter } from 'next/navigation'
 import { SyntheticEvent, useState } from "react";
 
 export default function Login() {
+  const router = useRouter();
   const [formData, setformData] = useState({
     username: "",
     password: "",
@@ -18,22 +20,21 @@ export default function Login() {
     });
   };
 
-  const handleSubmit  = async (event: SubmitEvent) => {
+  const handleSubmit = async (event: SubmitEvent) => {
     event.preventDefault();
 
     try {
-        const res = await fetch('http://localhost:3001/api/authentication/login', {
-            method: "POST",
-            body: JSON.stringify(formData),
-            credentials: 'include'
-          });
-    
-        console.log(res);
+      await fetch("http://localhost:3001/api/authentication/login", {
+        method: "POST",
+        body: JSON.stringify(formData),
+        credentials: "include",
+      });
+
+      router.push("/cms");
     } catch (error) {
-        console.error(error);
+      console.error(error);
     }
-    
-  }
+  };
 
   return (
     <main>
