@@ -44,8 +44,8 @@ export default function Articles({
               {
                 isAdmin && <button onClick={() => handleDelete(post._id)}>Delete</button>
               }
-              <h3>{post.title}</h3>
-              <div dangerouslySetInnerHTML={{ __html: post.content }} />
+              <h3 className="text-l">{post.title}</h3>
+              <div dangerouslySetInnerHTML={{ __html: post.intro }} />
             </article>
           ))}
         </div>

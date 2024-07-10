@@ -34,11 +34,8 @@ export default async function Home() {
       <main className="site-main" role="main">
         <div className="layout layout--home">
           <Hero />
-          <div className="inner-wrapper">
-            <div className="inner-action"></div>
-            <Introduction />
-            {posts && posts.length > 0 && <Articles posts={posts} />}
-          </div>
+          <Introduction />
+          {posts && posts.length > 0 && <Articles posts={posts} />}
         </div>
       </main>
       <Footer />

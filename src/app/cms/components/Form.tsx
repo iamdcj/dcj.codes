@@ -2,7 +2,7 @@
 
 import { FormEvent, SyntheticEvent, useState } from "react";
 import RichText from "../components/RichText";
-import Cookies from 'js-cookie'
+import Cookies from "js-cookie";
 
 export default function ArticleForm() {
   const [formData, setformData] = useState({
@@ -15,7 +15,7 @@ export default function ArticleForm() {
 
     setformData({
       ...formData,
-      [target?.name]: target?.value
+      [target?.name]: target?.value,
     });
   };
 
@@ -28,21 +28,28 @@ export default function ArticleForm() {
         body: JSON.stringify(formData),
         credentials: "include",
         headers: {
-          authorization: Cookies.get('dcj_acc_token') || ''
-        }
+          authorization: Cookies.get("dcj_acc_token") || "",
+        },
       });
-
     } catch (error) {
-      console.log('error');
-      
+      console.log("error");
     }
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input type="text" name="title" id="title" onChange={handleChange} value={formData?.title} />
-      <RichText onChange={handleChange} value={formData?.content} />
-      <button type="submit">Submit</button>
-    </form>
+    <section className="p-10">
+      <h1 className="text-xl">Add New Post</h1>
+      <form onSubmit={handleSubmit}>
+        <input
+          type="text"
+          name="title"
+          id="title"
+          onChange={handleChange}
+          value={formData?.title}
+        />
+        <RichText onChange={handleChange} value={formData?.content} />
+        <button type="submit">Submit</button>
+      </form>
+    </section>
   );
 }
