@@ -1,17 +1,10 @@
-import Logo from "@/components/Logo";
-import Link from "next/link";
+import CMSHeader from "./components/Header";
 
-export default function CMSLayout({
-  children, // will be a page or nested layout
-}: {
-  children: React.ReactNode;
-}) {
+export default function CMSLayout({ children }: { children: React.ReactNode }) {
+ 
   return (
     <>
-      <header>
-        <Logo isRelative root="/cms" />
-        <Link href="/">Home</Link>
-      </header>
+      <CMSHeader />
       <main className="layout">{children}</main>
     </>
   );
