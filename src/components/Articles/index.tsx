@@ -7,7 +7,7 @@ export default function Articles({
   isAdmin = false,
 }: {
   posts: any[];
-  isAdmin: boolean;
+  isAdmin?: boolean;
 }) {
 
   const handleDelete = async (id: any) => {

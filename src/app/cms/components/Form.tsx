@@ -1,6 +1,6 @@
 "use client";
 
-import { SyntheticEvent, useState } from "react";
+import { FormEvent, SyntheticEvent, useState } from "react";
 import RichText from "../components/RichText";
 import Cookies from 'js-cookie'
 
@@ -19,7 +19,7 @@ export default function ArticleForm() {
     });
   };
 
-  const handleSubmit = async (event: SubmitEvent) => {
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     try {

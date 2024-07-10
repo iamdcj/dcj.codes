@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from 'next/navigation'
-import { SyntheticEvent, useState } from "react";
+import { FormEvent, SyntheticEvent, useState } from "react";
 
 export default function Login() {
   const router = useRouter();
@@ -20,7 +20,7 @@ export default function Login() {
     });
   };
 
-  const handleSubmit = async (event: SubmitEvent) => {
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     try {

@@ -13,7 +13,13 @@ import {
 
 import "ckeditor5/ckeditor5.css";
 
-export default function RichText({ onChange, value }) {
+export default function RichText({
+  onChange,
+  value,
+}: {
+  onChange: (param: any) => void;
+  value: any;
+}) {
   return (
     <CKEditor
       editor={ClassicEditor}
