@@ -10,7 +10,7 @@ export default function CMSHeader() {
 
   const handleLogout = async () => {
     try {
-      await fetch("http://localhost:3001/api/authentication/logout", {
+      await fetch(`${process.env.NEXT_PUBLIC_API_URL}/authentication/logout`, {
         method: "GET",
         credentials: "include",
         headers: {
@@ -28,7 +28,7 @@ export default function CMSHeader() {
     <header>
       <Logo isRelative root="/cms" />
       <Link href="/">Home</Link>
-
+      <Link href="/cms/new">Add New Post+</Link>
       <button onClick={handleLogout}>Logout</button>
     </header>
   );

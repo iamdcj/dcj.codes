@@ -2,7 +2,7 @@ import Articles from "@/components/Articles";
 
 async function getPosts() {
   try {
-    const res = await fetch("http://localhost:3001/api/blog");
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/blog`);
 
     if (!res.ok) {
       throw new Error(`Failed to fetch posts, received status ${res.status}`);

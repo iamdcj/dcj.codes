@@ -23,7 +23,7 @@ export default function ArticleForm() {
     event.preventDefault();
 
     try {
-      await fetch("http://localhost:3001/api/blog", {
+      await fetch(`${process.env.NEXT_PUBLIC_API_URL}/blog`, {
         method: "POST",
         body: JSON.stringify(formData),
         credentials: "include",

@@ -24,7 +24,7 @@ export default function Login() {
     event.preventDefault();
 
     try {
-      await fetch("http://localhost:3001/api/authentication/login", {
+      await fetch(`${process.env.NEXT_PUBLIC_API_URL}/authentication/login`, {
         method: "POST",
         body: JSON.stringify(formData),
         credentials: "include",

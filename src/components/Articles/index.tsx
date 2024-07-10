@@ -14,7 +14,7 @@ export default function Articles({
     try {
       console.log(Cookies.get('dcj_acc_token'));
       
-      const res = await fetch(`http://localhost:3001/api/blog/${id}`, {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/blog/${id}`, {
         method: 'DELETE',
         credentials: 'include',
         headers: {
@@ -40,7 +40,7 @@ export default function Articles({
         <h2 className="section__heading">Thoughts</h2>
         <div className="section__content">
           {posts.map((post: any) => (
-            <article>
+            <article key={post._id}>
               {
                 isAdmin && <button onClick={() => handleDelete(post._id)}>Delete</button>
               }
