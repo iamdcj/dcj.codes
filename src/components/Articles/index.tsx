@@ -1,5 +1,7 @@
 'use client';
 
+import Cookies from 'js-cookie'
+
 export default function Articles({
   posts,
   isAdmin = false,
@@ -9,12 +11,15 @@ export default function Articles({
 }) {
 
   const handleDelete = async (id: any) => {
-    console.log(id);
-    
     try {
+      console.log(Cookies.get('dcj_acc_token'));
+      
       const res = await fetch(`http://localhost:3001/api/blog/${id}`, {
         method: 'DELETE',
-        credentials: 'include'
+        credentials: 'include',
+        headers: {
+          authorization: Cookies.get('dcj_acc_token') || ''
+        }
       });
   
       if (!res.ok) {

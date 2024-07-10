@@ -2,6 +2,7 @@
 
 import { SyntheticEvent, useState } from "react";
 import RichText from "../components/RichText";
+import Cookies from 'js-cookie'
 
 export default function ArticleForm() {
   const [formData, setformData] = useState({
@@ -26,10 +27,14 @@ export default function ArticleForm() {
         method: "POST",
         body: JSON.stringify(formData),
         credentials: "include",
+        headers: {
+          authorization: Cookies.get('dcj_acc_token') || ''
+        }
       });
 
     } catch (error) {
-      console.error(error);
+      console.log('error');
+      
     }
   };
 
